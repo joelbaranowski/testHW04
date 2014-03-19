@@ -1,5 +1,6 @@
 package model.board;
 
+import java.awt.Point;
 import java.util.Random;
 
 import model.*;
@@ -46,10 +47,20 @@ public class GameGridBoard extends ABoardModel {
         }
     }
 
+    Point old_pos;
+	int old_value_zero;
 	public synchronized IUndoMove makeMove(final int row, final int col, int player,
                                            ICheckMoveVisitor chkMoveVisitor,
                                            IBoardStatusVisitor<Void, Void> statusVisitor) {
         if (isValidMove(player,row,col)) {
+        	
+        	for(int i = 0; i < cells.length; i++)
+        		for(int j = 0; j < cells[i].length; j++)
+        			if(cells[i][j] == playerToValue(player)){
+        			 	old_pos = new Point(i, j);
+        			 	old_value_zero = cells[i][j];
+        				cells[i][j] = 0;
+        			}
         	final int old_value = cells[row][col];
             cells[row] [col] = playerToValue(player);
             chgState(winCheck(row, col));
@@ -57,7 +68,7 @@ public class GameGridBoard extends ABoardModel {
             execute(statusVisitor);
             return new IUndoMove() {
                 public void apply(IUndoVisitor undoVisitor) {
-                    undoMove(row, col, old_value, undoVisitor);
+                    undoMove(row, col, old_value, old_pos, old_value_zero, undoVisitor);
                 }
             };
         }
@@ -75,9 +86,10 @@ public class GameGridBoard extends ABoardModel {
      * @param col
      * @param undoVisitor The appropriate method of the visitor is called after the undo is performed.
      */
-    private synchronized void undoMove(int row, int col, int old_value, IUndoVisitor undoVisitor)  {
+    private synchronized void undoMove(int row, int col, int old_value, Point old_pos, int old_value_zero, IUndoVisitor undoVisitor)  {
 
-
+    	if(old_value_zero == -2 || old_value_zero == -1)
+    		cells[old_pos.x][old_pos.y] = old_value_zero;
         cells[row][col] = old_value;
 
         state = NonTerminalState.Singleton;
@@ -97,7 +109,7 @@ public class GameGridBoard extends ABoardModel {
     		for(int j = 0; j < cells[i].length; j++)
     			if(cells[i][j] == -2 || cells[i][j] == -1)
     				count++;
-    	if(count == cells[0].length * cells.length)
+    	if(count == cells[0].length * cells.length - 2)
     		return 1;
     	return 0;
     }

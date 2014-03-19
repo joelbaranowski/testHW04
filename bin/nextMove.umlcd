@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_oU10MHxNEeK7_aiwPhZIAQ">
+  <modelElement href="OOGames.uml#_UcANsHvuEeKz-5PjZFtJ-Q"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oZUrkXxNEeK7_aiwPhZIAQ" targetItem="_oZayUnxNEeK7_aiwPhZIAQ" sourceItem="_oZUrkHxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oZUrk3xNEeK7_aiwPhZIAQ" targetItem="_oZayVnxNEeK7_aiwPhZIAQ" sourceItem="_oZUrknxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oZUrlXxNEeK7_aiwPhZIAQ" targetItem="_oZayYnxNEeK7_aiwPhZIAQ" sourceItem="_oZUrlHxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oZg40HxNEeK7_aiwPhZIAQ" sourceAnchor="235.0,0.0" targetAnchor="323.0,135.0" target="_oZayMHxNEeK7_aiwPhZIAQ" source="_oZm_dXxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UsqgC3vuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oad7EHxNEeK7_aiwPhZIAQ" position="230.0,230.0"/>
+    <bendpoints xmi:id="_-Bn-0HxPEeK7_aiwPhZIAQ" sourceY="-219" targetX="46"/>
+    <stereotypes xmi:id="_oZg41XxNEeK7_aiwPhZIAQ" name="Reference">
+      <modelElement href="OOGames.uml#_UsqgDXvuEeKz-5PjZFtJ-Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oZg40nxNEeK7_aiwPhZIAQ" text="">
+      <visualProperties xmi:id="_opEXyHxNEeK7_aiwPhZIAQ" position="2.000000000000014,14.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oZg403xNEeK7_aiwPhZIAQ" aggregationKind="NONE" name="">
+      <modelElement href="OOGames.uml#_UsqgDHvuEeKz-5PjZFtJ-Q"/>
+      <visualProperties xmi:id="_opEXx3xNEeK7_aiwPhZIAQ" position="2.0,-62.0"/>
+      <visibility xmi:id="_oZm_cXxNEeK7_aiwPhZIAQ" label="+"/>
+      <cardinality xmi:id="_oZm_cHxNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oZg41HxNEeK7_aiwPhZIAQ" aggregationKind="NONE" name="_acc" navigable="true">
+      <modelElement href="OOGames.uml#_Uq4XNXvuEeKz-5PjZFtJ-Q"/>
+      <visualProperties xmi:id="_opEXyXxNEeK7_aiwPhZIAQ" position="6.999999999999975,41.0"/>
+      <visibility xmi:id="_oZm_c3xNEeK7_aiwPhZIAQ" label="#"/>
+      <cardinality xmi:id="_oZm_cnxNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_oZg40XxNEeK7_aiwPhZIAQ" sourceAnchor="205.0,0.0" targetAnchor="162.0,270.0" superClass="_oZayMHxNEeK7_aiwPhZIAQ" subClass="_oZm_dXxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UopimHvuEeKz-5PjZFtJ-Q"/>
+    <bendpoints xmi:id="_-Bn-0XxPEeK7_aiwPhZIAQ" sourceY="-31" targetX="177" targetY="53"/>
+    <bendpoints xmi:id="_-Bn-0nxPEeK7_aiwPhZIAQ" sourceX="-177" sourceY="-31" targetY="53"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_oZ_Z8HxNEeK7_aiwPhZIAQ" sourceAnchor="202.0,0.0" targetAnchor="205.0,232.0" superClass="_oZm_dXxNEeK7_aiwPhZIAQ" subClass="_oZ_Z8XxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UopipHvuEeKz-5PjZFtJ-Q"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_oaFgkHxNEeK7_aiwPhZIAQ" sourceAnchor="151.0,0.0" targetAnchor="162.0,270.0" superClass="_oZayMHxNEeK7_aiwPhZIAQ" subClass="_oaLnOHxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VhMUI3vuEeKz-5PjZFtJ-Q"/>
+    <bendpoints xmi:id="_-Bh4OXxPEeK7_aiwPhZIAQ" sourceY="-32" targetX="-528" targetY="53"/>
+    <bendpoints xmi:id="_-Bh4OnxPEeK7_aiwPhZIAQ" sourceX="528" sourceY="-32" targetY="53"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_oaFgkXxNEeK7_aiwPhZIAQ" sourceAnchor="90.0,0.0" targetAnchor="150.0,111.0" superClass="_oaLnOHxNEeK7_aiwPhZIAQ" subClass="_oZzMsHxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Up-_VHvuEeKz-5PjZFtJ-Q"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oaLnMXxNEeK7_aiwPhZIAQ" targetItem="_oaLnO3xNEeK7_aiwPhZIAQ" sourceItem="_oaLnMHxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oaLnM3xNEeK7_aiwPhZIAQ" targetItem="_oaLnP3xNEeK7_aiwPhZIAQ" sourceItem="_oaLnMnxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oaLnNXxNEeK7_aiwPhZIAQ" targetItem="_oaLnQ3xNEeK7_aiwPhZIAQ" sourceItem="_oaLnNHxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oaLnN3xNEeK7_aiwPhZIAQ" targetItem="_oaLnSnxNEeK7_aiwPhZIAQ" sourceItem="_oaLnNnxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_oaRt0HxNEeK7_aiwPhZIAQ" sourceAnchor="231.0,0.0" targetAnchor="128.0,71.0" dashed="true" superClass="_oaRt0XxNEeK7_aiwPhZIAQ" subClass="_oZ5TUHxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Up-_V3vuEeKz-5PjZFtJ-Q"/>
+    <bendpoints xmi:id="_-Bh4NXxPEeK7_aiwPhZIAQ" sourceY="-122" targetX="30" targetY="53"/>
+    <bendpoints xmi:id="_-Bh4NnxPEeK7_aiwPhZIAQ" sourceX="-30" sourceY="-122" targetY="53"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_oaX0cHxNEeK7_aiwPhZIAQ" sourceAnchor="156.0,0.0" targetAnchor="162.0,270.0" superClass="_oZayMHxNEeK7_aiwPhZIAQ" subClass="_oaX0enxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VhMUJ3vuEeKz-5PjZFtJ-Q"/>
+    <bendpoints xmi:id="_-Bn-03xPEeK7_aiwPhZIAQ" sourceY="-30" targetX="-193" targetY="53"/>
+    <bendpoints xmi:id="_-Bn-1HxPEeK7_aiwPhZIAQ" sourceX="193" sourceY="-30" targetY="53"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_oaX0cXxNEeK7_aiwPhZIAQ" sourceAnchor="114.0,0.0" targetAnchor="150.0,111.0" superClass="_oaX0enxNEeK7_aiwPhZIAQ" subClass="_oZ5TWXxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Up-_WnvuEeKz-5PjZFtJ-Q"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oaX0c3xNEeK7_aiwPhZIAQ" targetItem="_oaX0fXxNEeK7_aiwPhZIAQ" sourceItem="_oaX0cnxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oaX0dXxNEeK7_aiwPhZIAQ" targetItem="_oaX0gXxNEeK7_aiwPhZIAQ" sourceItem="_oaX0dHxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oaX0d3xNEeK7_aiwPhZIAQ" targetItem="_oaX0hXxNEeK7_aiwPhZIAQ" sourceItem="_oaX0dnxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oaX0eXxNEeK7_aiwPhZIAQ" targetItem="_oaX0jHxNEeK7_aiwPhZIAQ" sourceItem="_oaX0eHxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oad7EXxNEeK7_aiwPhZIAQ" sourceAnchor="215.0,0.0" targetAnchor="256.0,65.0" target="_oaRt0XxNEeK7_aiwPhZIAQ" source="_oakBtXxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Vn4yAHvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oa8cQ3xNEeK7_aiwPhZIAQ" position="350.0,350.0"/>
+    <bendpoints xmi:id="_-Bh4MnxPEeK7_aiwPhZIAQ" sourceY="-94" targetX="166"/>
+    <stereotypes xmi:id="_oad7FnxNEeK7_aiwPhZIAQ" name="Reference">
+      <modelElement href="OOGames.uml#_Vn4yAnvuEeKz-5PjZFtJ-Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oad7E3xNEeK7_aiwPhZIAQ" text="">
+      <visualProperties xmi:id="_opEXy3xNEeK7_aiwPhZIAQ" position="-109.0,-17.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oad7FHxNEeK7_aiwPhZIAQ" aggregationKind="NONE" name="">
+      <modelElement href="OOGames.uml#_Vn4yAXvuEeKz-5PjZFtJ-Q"/>
+      <visualProperties xmi:id="_opEXynxNEeK7_aiwPhZIAQ" position="-16.0,-53.0"/>
+      <visibility xmi:id="_oakBsXxNEeK7_aiwPhZIAQ" label="+"/>
+      <cardinality xmi:id="_oakBsHxNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oad7FXxNEeK7_aiwPhZIAQ" aggregationKind="NONE" name="_accFac" navigable="true">
+      <modelElement href="OOGames.uml#_VnSVF3vuEeKz-5PjZFtJ-Q"/>
+      <visualProperties xmi:id="_opEXzHxNEeK7_aiwPhZIAQ" position="69.0,1.0"/>
+      <visibility xmi:id="_oakBs3xNEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_oakBsnxNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_oad7EnxNEeK7_aiwPhZIAQ" sourceAnchor="185.0,0.0" targetAnchor="128.0,71.0" dashed="true" superClass="_oaRt0XxNEeK7_aiwPhZIAQ" subClass="_oakBtXxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VlXCcXvuEeKz-5PjZFtJ-Q"/>
+    <bendpoints xmi:id="_-Bh4M3xPEeK7_aiwPhZIAQ" sourceY="-35" targetX="264" targetY="53"/>
+    <bendpoints xmi:id="_-Bh4NHxPEeK7_aiwPhZIAQ" sourceX="-264" sourceY="-35" targetY="53"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_oaqIUHxNEeK7_aiwPhZIAQ" sourceAnchor="259.0,156.0" targetAnchor="128.0,0.0" target="_oaRt0XxNEeK7_aiwPhZIAQ" source="_oaqIYHxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Vn4yA3vuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oa8cRHxNEeK7_aiwPhZIAQ" position="370.0,370.0"/>
+    <stereotypes xmi:id="_oaqIVHxNEeK7_aiwPhZIAQ" name="Reference">
+      <modelElement href="OOGames.uml#_Vn4yBXvuEeKz-5PjZFtJ-Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_oaqIUXxNEeK7_aiwPhZIAQ" text="">
+      <visualProperties xmi:id="_opEXznxNEeK7_aiwPhZIAQ" position="2.0,19.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_oaqIUnxNEeK7_aiwPhZIAQ" aggregationKind="NONE" name="">
+      <modelElement href="OOGames.uml#_Vn4yBHvuEeKz-5PjZFtJ-Q"/>
+      <visualProperties xmi:id="_opEXzXxNEeK7_aiwPhZIAQ" position="2.0,19.0"/>
+      <visibility xmi:id="_oaqIXHxNEeK7_aiwPhZIAQ" label="+"/>
+      <cardinality xmi:id="_oaqIW3xNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_oaqIU3xNEeK7_aiwPhZIAQ" aggregationKind="NONE" name="_accFac" navigable="true">
+      <modelElement href="OOGames.uml#_VnSVHHvuEeKz-5PjZFtJ-Q"/>
+      <visualProperties xmi:id="_opEXz3xNEeK7_aiwPhZIAQ" position="-58.0,-54.0"/>
+      <visibility xmi:id="_oaqIXnxNEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_oaqIXXxNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oaqIVnxNEeK7_aiwPhZIAQ" targetItem="_oaqIenxNEeK7_aiwPhZIAQ" sourceItem="_oaqIVXxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oaqIWHxNEeK7_aiwPhZIAQ" targetItem="_oaqIgHxNEeK7_aiwPhZIAQ" sourceItem="_oaqIV3xNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oaqIWnxNEeK7_aiwPhZIAQ" targetItem="_oaqIhnxNEeK7_aiwPhZIAQ" sourceItem="_oaqIWXxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_oawO8HxNEeK7_aiwPhZIAQ" sourceAnchor="135.0,0.0" targetAnchor="128.0,71.0" dashed="true" superClass="_oaRt0XxNEeK7_aiwPhZIAQ" subClass="_oawO8XxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Vlp9a3vuEeKz-5PjZFtJ-Q"/>
+    <bendpoints xmi:id="_-Bh4N3xPEeK7_aiwPhZIAQ" sourceY="-30" targetX="-113" targetY="53"/>
+    <bendpoints xmi:id="_-Bh4OHxPEeK7_aiwPhZIAQ" sourceX="113" sourceY="-30" targetY="53"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oa2VkXxNEeK7_aiwPhZIAQ" targetItem="_oa2VknxNEeK7_aiwPhZIAQ" sourceItem="_oa2VkHxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_oa2VnnxNEeK7_aiwPhZIAQ" targetItem="_oa8cMHxNEeK7_aiwPhZIAQ" sourceItem="_oa2VnXxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_v19cQXxNEeK7_aiwPhZIAQ" targetItem="_v2Di4HxNEeK7_aiwPhZIAQ" sourceItem="_v19cQHxNEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_v19cQnxNEeK7_aiwPhZIAQ" sourceAnchor="206.0,0.0" targetAnchor="161.0,71.0" dashed="true" superClass="_v2Di4HxNEeK7_aiwPhZIAQ" subClass="_oaqIYHxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VlgMdXvuEeKz-5PjZFtJ-Q"/>
+    <bendpoints xmi:id="_-Bh4MHxPEeK7_aiwPhZIAQ" sourceY="-30" targetX="-97" targetY="132"/>
+    <bendpoints xmi:id="_-Bh4MXxPEeK7_aiwPhZIAQ" sourceX="97" sourceY="-30" targetY="132"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_v19cQ3xNEeK7_aiwPhZIAQ" sourceAnchor="163.0,0.0" targetAnchor="161.0,71.0" dashed="true" superClass="_v2Di4HxNEeK7_aiwPhZIAQ" subClass="_oa2VknxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VlzHUXvuEeKz-5PjZFtJ-Q"/>
+    <bendpoints xmi:id="_-Bn-13xPEeK7_aiwPhZIAQ" sourceY="-34" targetX="289" targetY="132"/>
+    <bendpoints xmi:id="_-Bn-2HxPEeK7_aiwPhZIAQ" sourceX="-289" sourceY="-34" targetY="132"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_v19cRHxNEeK7_aiwPhZIAQ" sourceAnchor="188.0,0.0" targetAnchor="161.0,71.0" dashed="true" superClass="_v2Di4HxNEeK7_aiwPhZIAQ" subClass="_oa8cMHxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VlzHV3vuEeKz-5PjZFtJ-Q"/>
+    <bendpoints xmi:id="_-Bn-1XxPEeK7_aiwPhZIAQ" sourceY="-31" targetX="646" targetY="132"/>
+    <bendpoints xmi:id="_-Bn-1nxPEeK7_aiwPhZIAQ" sourceX="-646" sourceY="-31" targetY="132"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:DependencyVisual" xmi:id="_aOJUYXxPEeK7_aiwPhZIAQ" sourceAnchor="256.0,35.0" targetAnchor="0.0,32.0" client="_oaRt0XxNEeK7_aiwPhZIAQ" supplier="_oZayMHxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_aOJUYHxPEeK7_aiwPhZIAQ"/>
+    <visualProperties xmi:id="_aOJUYnxPEeK7_aiwPhZIAQ"/>
+    <nameVisual xmi:id="_aOJUY3xPEeK7_aiwPhZIAQ" text="instantiates"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_lmwycHxPEeK7_aiwPhZIAQ" sourceAnchor="206.0,0.0" targetAnchor="161.0,71.0" dashed="true" superClass="_v2Di4HxNEeK7_aiwPhZIAQ" subClass="_lm8_3XxPEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UndPy3vuEeKz-5PjZFtJ-Q"/>
+    <bendpoints xmi:id="_mmrXWXxPEeK7_aiwPhZIAQ" sourceY="-30" targetX="1103" targetY="56"/>
+    <bendpoints xmi:id="_mmrXWnxPEeK7_aiwPhZIAQ" sourceX="-1103" sourceY="-30" targetY="56"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lmwycXxPEeK7_aiwPhZIAQ" source="_lm8_3XxPEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UsXk_3vuEeKz-5PjZFtJ-Q"/>
+    <stereotypes xmi:id="_lm25E3xPEeK7_aiwPhZIAQ" name="Reference">
+      <modelElement href="OOGames.uml#_UsXlAXvuEeKz-5PjZFtJ-Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lm25EHxPEeK7_aiwPhZIAQ" text=""/>
+    <sourceRole xmi:id="_lm25EXxPEeK7_aiwPhZIAQ" aggregationKind="NONE" name="">
+      <modelElement href="OOGames.uml#_UsXlAHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm25FXxPEeK7_aiwPhZIAQ" label="+"/>
+      <cardinality xmi:id="_lm25FHxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lm25EnxPEeK7_aiwPhZIAQ" aggregationKind="NONE" name="_model" navigable="true">
+      <modelElement href="OOGames.uml#_UqR6ZnvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm25F3xPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm25FnxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_lmwyc3xPEeK7_aiwPhZIAQ" targetItem="_lm9ATXxPEeK7_aiwPhZIAQ" sourceItem="_lmwycnxPEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_lmwydXxPEeK7_aiwPhZIAQ" targetItem="_lm9AU3xPEeK7_aiwPhZIAQ" sourceItem="_lmwydHxPEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_lmwyd3xPEeK7_aiwPhZIAQ" targetItem="_lm9AbnxPEeK7_aiwPhZIAQ" sourceItem="_lmwydnxPEeK7_aiwPhZIAQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lm8_sHxPEeK7_aiwPhZIAQ" source="_lm8_3XxPEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UsXk_HvuEeKz-5PjZFtJ-Q"/>
+    <stereotypes xmi:id="_lm8_sXxPEeK7_aiwPhZIAQ" name="Reference">
+      <modelElement href="OOGames.uml#_UsXk_nvuEeKz-5PjZFtJ-Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lm8_snxPEeK7_aiwPhZIAQ" text=""/>
+    <sourceRole xmi:id="_lm8_s3xPEeK7_aiwPhZIAQ" aggregationKind="NONE" name="">
+      <modelElement href="OOGames.uml#_UsXk_XvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm8_tHxPEeK7_aiwPhZIAQ" label="+"/>
+      <cardinality xmi:id="_lm8_tXxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lm8_tnxPEeK7_aiwPhZIAQ" aggregationKind="NONE" name="_accFac" navigable="true">
+      <modelElement href="OOGames.uml#_UqR6Y3vuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm8_t3xPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm8_uHxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lm8_uXxPEeK7_aiwPhZIAQ" source="_lm8_3XxPEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UsXlAnvuEeKz-5PjZFtJ-Q"/>
+    <stereotypes xmi:id="_lm8_unxPEeK7_aiwPhZIAQ" name="Reference">
+      <modelElement href="OOGames.uml#_UsXlBHvuEeKz-5PjZFtJ-Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lm8_u3xPEeK7_aiwPhZIAQ" text=""/>
+    <sourceRole xmi:id="_lm8_vHxPEeK7_aiwPhZIAQ" aggregationKind="NONE" name="">
+      <modelElement href="OOGames.uml#_UsXlA3vuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm8_vXxPEeK7_aiwPhZIAQ" label="+"/>
+      <cardinality xmi:id="_lm8_vnxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lm8_v3xPEeK7_aiwPhZIAQ" aggregationKind="NONE" name="board" navigable="true">
+      <modelElement href="OOGames.uml#_UqR6aHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm8_wHxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm8_wXxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lm8_wnxPEeK7_aiwPhZIAQ" source="_lm8_3XxPEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UsXlBXvuEeKz-5PjZFtJ-Q"/>
+    <stereotypes xmi:id="_lm8_w3xPEeK7_aiwPhZIAQ" name="Reference">
+      <modelElement href="OOGames.uml#_UsXlB3vuEeKz-5PjZFtJ-Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lm8_xHxPEeK7_aiwPhZIAQ" text=""/>
+    <sourceRole xmi:id="_lm8_xXxPEeK7_aiwPhZIAQ" aggregationKind="NONE" name="">
+      <modelElement href="OOGames.uml#_UsXlBnvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm8_xnxPEeK7_aiwPhZIAQ" label="+"/>
+      <cardinality xmi:id="_lm8_x3xPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lm8_yHxPEeK7_aiwPhZIAQ" aggregationKind="NONE" name="dim" navigable="true">
+      <modelElement href="OOGames.uml#_UqR6anvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm8_yXxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm8_ynxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lm8_y3xPEeK7_aiwPhZIAQ" source="_lm8_3XxPEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UsXlCHvuEeKz-5PjZFtJ-Q"/>
+    <stereotypes xmi:id="_lm8_zHxPEeK7_aiwPhZIAQ" name="Reference">
+      <modelElement href="OOGames.uml#_UsXlCnvuEeKz-5PjZFtJ-Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lm8_zXxPEeK7_aiwPhZIAQ" text=""/>
+    <sourceRole xmi:id="_lm8_znxPEeK7_aiwPhZIAQ" aggregationKind="NONE" name="">
+      <modelElement href="OOGames.uml#_UsXlCXvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm8_z3xPEeK7_aiwPhZIAQ" label="+"/>
+      <cardinality xmi:id="_lm8_0HxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lm8_0XxPEeK7_aiwPhZIAQ" aggregationKind="NONE" name="validMoveVisitor" navigable="true">
+      <modelElement href="OOGames.uml#_UqR6bHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm8_0nxPEeK7_aiwPhZIAQ" label="~"/>
+      <cardinality xmi:id="_lm8_03xPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_lm8_1HxPEeK7_aiwPhZIAQ" source="_lm8_3XxPEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UsXlC3vuEeKz-5PjZFtJ-Q"/>
+    <stereotypes xmi:id="_lm8_1XxPEeK7_aiwPhZIAQ" name="Reference">
+      <modelElement href="OOGames.uml#_UsXlDXvuEeKz-5PjZFtJ-Q"/>
+    </stereotypes>
+    <nameVisual xmi:id="_lm8_1nxPEeK7_aiwPhZIAQ" text=""/>
+    <sourceRole xmi:id="_lm8_13xPEeK7_aiwPhZIAQ" aggregationKind="NONE" name="">
+      <modelElement href="OOGames.uml#_UsXlDHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm8_2HxPEeK7_aiwPhZIAQ" label="+"/>
+      <cardinality xmi:id="_lm8_2XxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_lm8_2nxPEeK7_aiwPhZIAQ" aggregationKind="NONE" name="validUndo" navigable="true">
+      <modelElement href="OOGames.uml#_UqR6b3vuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm8_23xPEeK7_aiwPhZIAQ" label="~"/>
+      <cardinality xmi:id="_lm8_3HxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oZUrkHxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oZUrkXxNEeK7_aiwPhZIAQ" text="@return The player who is trying to find the best move." item="_oZayUnxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Urn-M3vuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oZUrknxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oZUrk3xNEeK7_aiwPhZIAQ" text="player = modelPlayer for MaxAcc&#xA;     * player = opposite of modelPlayer for MinAcc&#xA;     * @return The player is making the move that uses this accumulator." item="_oZayVnxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Urn-NHvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oZUrlHxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oZUrlXxNEeK7_aiwPhZIAQ" text="@param row&#xA;     * @param col&#xA;     * @param childVal" item="_oZayYnxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Urn-NXvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oaLnMHxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oaLnMXxNEeK7_aiwPhZIAQ" text="@return" item="_oaLnO3xNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VnvBQHvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oaLnMnxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oaLnM3xNEeK7_aiwPhZIAQ" text="The player who is trying to find the best move is the player that&#xA;     * is using this accumulator" item="_oaLnP3xNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VnvBQnvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oaLnNHxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oaLnNXxNEeK7_aiwPhZIAQ" text="@param player&#xA;     * @SBGen Constructor" item="_oaLnQ3xNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VnvBP3vuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oaLnNnxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oaLnN3xNEeK7_aiwPhZIAQ" text="Search for the maximum value&#xA;     * @param row&#xA;     * @param col&#xA;     * @param childVal" item="_oaLnSnxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VnvBQXvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oaX0cnxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oaX0c3xNEeK7_aiwPhZIAQ" text="@return" item="_oaX0fXxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VnvBRHvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oaX0dHxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oaX0dXxNEeK7_aiwPhZIAQ" text="The player who is trying to find the best move is the opposite player&#xA;     * to  the one that is using this accumulator." item="_oaX0gXxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VnvBRnvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oaX0dnxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oaX0d3xNEeK7_aiwPhZIAQ" text="@param player&#xA;     * @SBGen Constructor" item="_oaX0hXxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VnvBQ3vuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oaX0eHxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oaX0eXxNEeK7_aiwPhZIAQ" text="Search for the minimum value&#xA;     * @param row&#xA;     * @param col&#xA;     * @param childVal" item="_oaX0jHxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VnvBRXvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oaqIVXxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oaqIVnxNEeK7_aiwPhZIAQ" text=" Utility methods to convert from a player to value if player 0 won" item="_oaqIenxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VnvBR3vuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oaqIV3xNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oaqIWHxNEeK7_aiwPhZIAQ" text=" Utility methods to convert from a player to value if player 1 won" item="_oaqIgHxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VnvBSHvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oaqIWXxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oaqIWnxNEeK7_aiwPhZIAQ" text="Calculate the best move for the given player.&#xA;     * Pre-condition: The context's board must be in a non-terminal state.&#xA;     * Should be called only when the board is non-terminal.&#xA;     * @param context The model that is running this game.&#xA;     * @return The best move that can be made" item="_oaqIhnxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VnvBSXvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oa2VkHxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oa2VkXxNEeK7_aiwPhZIAQ" text="Selects a random move within the bounds of the board.  The result may be an&#xA;invalid (i.e. illegal) move." item="_oa2VknxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VnvBSnvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_oa2VnXxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_oa2VnnxNEeK7_aiwPhZIAQ" text="Selects a random move from the set of valid moves only." item="_oa8cMHxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VnvBS3vuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_v19cQHxNEeK7_aiwPhZIAQ" sourceConnectionVisual="_v19cQXxNEeK7_aiwPhZIAQ" text="An abstract strategy used to calculate the next move for a player." item="_v2Di4HxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UreNWnvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_v2Di4HxNEeK7_aiwPhZIAQ" comments="_v19cQHxNEeK7_aiwPhZIAQ" targetConnectionVisual="_v19cQXxNEeK7_aiwPhZIAQ" name="INextMoveStrategy" subclassedBy="_v19cQnxNEeK7_aiwPhZIAQ _v19cQ3xNEeK7_aiwPhZIAQ _v19cRHxNEeK7_aiwPhZIAQ _lmwycHxPEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UhNd03vuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_v2Di4XxNEeK7_aiwPhZIAQ" position="-938.0,18.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_v2Di4nxNEeK7_aiwPhZIAQ" label="+"/>
+    <operations xmi:id="_v2Di43xNEeK7_aiwPhZIAQ" abstractOperation="true" name="getNextMove">
+      <modelElement href="OOGames.uml#_UoDFpnvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_v2Di5HxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_v2Di5XxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_UpZJjnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_v2Di5nxNEeK7_aiwPhZIAQ" name="Point">
+          <modelElement href="OOGames.uml#_UnKU0HvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_v2Di53xNEeK7_aiwPhZIAQ" name="context">
+        <modelElement href="OOGames.uml#_UoDFp3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_v2Di6HxNEeK7_aiwPhZIAQ" name="IModel">
+          <modelElement href="OOGames.uml#_UhDs13vuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_v2Di6XxNEeK7_aiwPhZIAQ" name="player">
+        <modelElement href="OOGames.uml#_UoDFqHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_v2Di6nxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_lmwycnxPEeK7_aiwPhZIAQ" sourceConnectionVisual="_lmwyc3xPEeK7_aiwPhZIAQ" text=" Utility methods to convert from a player to value if player 0 won" item="_lm9ATXxPEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UreNJHvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_lmwydHxPEeK7_aiwPhZIAQ" sourceConnectionVisual="_lmwydXxPEeK7_aiwPhZIAQ" text=" Utility methods to convert from a player to value if player 1 won" item="_lm9AU3xPEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UreNJXvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_lmwydnxPEeK7_aiwPhZIAQ" sourceConnectionVisual="_lmwyd3xPEeK7_aiwPhZIAQ" text="Calculate the best move for the given player.&#xA;&#x9; * Pre-condition: The context's board must be in a non-terminal state.&#xA;&#x9; * Should be called only when the board is non-terminal.&#xA;&#x9; * @param context The model that is running this game.&#xA;&#x9; * @return The best move that can be made" item="_lm9AbnxPEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UreNJnvuEeKz-5PjZFtJ-Q"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_lm8_3XxPEeK7_aiwPhZIAQ" name="SBW_DXN_strategy1" associationsOut="_lmwycXxPEeK7_aiwPhZIAQ _lm8_sHxPEeK7_aiwPhZIAQ _lm8_uXxPEeK7_aiwPhZIAQ _lm8_wnxPEeK7_aiwPhZIAQ _lm8_y3xPEeK7_aiwPhZIAQ _lm8_1HxPEeK7_aiwPhZIAQ" generalizations="_lmwycHxPEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_UfkfEHvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_lm8_3nxPEeK7_aiwPhZIAQ" position="120.0,175.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_lm8_33xPEeK7_aiwPhZIAQ" label="+"/>
+    <attributes xmi:id="_lm8_4HxPEeK7_aiwPhZIAQ" defaultValue="1" name="numMoves">
+      <modelElement href="OOGames.uml#_UqIwf3vuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm8_4XxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqIwgXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm8_4nxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm8_43xPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm8_5HxPEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm8_5XxPEeK7_aiwPhZIAQ" defaultValue="Integer.MAX_VALUE-1" name="MAX_VALUE">
+      <modelElement href="OOGames.uml#_UqIwgnvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm8_5nxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6QHvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm8_53xPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm8_6HxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm8_6XxPEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm8_6nxPEeK7_aiwPhZIAQ" defaultValue="2.4" name="TOTAL_FACTOR">
+      <modelElement href="OOGames.uml#_UqR6QXvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm8_63xPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6Q3vuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm8_7HxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm8_7XxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm8_7nxPEeK7_aiwPhZIAQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm8_73xPEeK7_aiwPhZIAQ" defaultValue="10.0" name="WEIGHT_FACTOR">
+      <modelElement href="OOGames.uml#_UqR6RHvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm8_8HxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6RnvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm8_8XxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm8_8nxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm8_83xPEeK7_aiwPhZIAQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm8_9HxPEeK7_aiwPhZIAQ" defaultValue="7" name="maxDepth">
+      <modelElement href="OOGames.uml#_UqR6R3vuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm8_9XxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6SXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm8_9nxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm8_93xPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm8_-HxPEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm8_-XxPEeK7_aiwPhZIAQ" name="totalMoves">
+      <modelElement href="OOGames.uml#_UqR6SnvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm8_-nxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6S3vuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm8_-3xPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm8__HxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm8__XxPEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm8__nxPEeK7_aiwPhZIAQ" name="levelSize">
+      <modelElement href="OOGames.uml#_UqR6THvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm8__3xPEeK7_aiwPhZIAQ" name="Array">
+        <modelElement href="OOGames.uml#_UqR6TnvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lm9AAHxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6T3vuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9AAXxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm9AAnxPEeK7_aiwPhZIAQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_lm9AA3xPEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm9ABHxPEeK7_aiwPhZIAQ" name="levelTotal">
+      <modelElement href="OOGames.uml#_UqR6UHvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm9ABXxPEeK7_aiwPhZIAQ" name="Array">
+        <modelElement href="OOGames.uml#_UqR6UnvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lm9ABnxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6U3vuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9AB3xPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm9ACHxPEeK7_aiwPhZIAQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_lm9ACXxPEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm9ACnxPEeK7_aiwPhZIAQ" defaultValue="0" name="depth">
+      <modelElement href="OOGames.uml#_UqR6VHvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm9AC3xPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6VnvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9ADHxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm9ADXxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm9ADnxPEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm9AD3xPEeK7_aiwPhZIAQ" defaultValue="false" name="isHardBail">
+      <modelElement href="OOGames.uml#_UqR6V3vuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm9AEHxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6WXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9AEXxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm9AEnxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm9AE3xPEeK7_aiwPhZIAQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm9AFHxPEeK7_aiwPhZIAQ" defaultValue="1000" name="HARD_BAIL_TIME">
+      <modelElement href="OOGames.uml#_UqR6WnvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm9AFXxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6XHvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9AFnxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm9AF3xPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm9AGHxPEeK7_aiwPhZIAQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm9AGXxPEeK7_aiwPhZIAQ" defaultValue="false" name="isEndGame">
+      <modelElement href="OOGames.uml#_UqR6XXvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm9AGnxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6X3vuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9AG3xPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm9AHHxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm9AHXxPEeK7_aiwPhZIAQ" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm9AHnxPEeK7_aiwPhZIAQ" name="_payOff">
+      <modelElement href="OOGames.uml#_UqR6YHvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm9AH3xPEeK7_aiwPhZIAQ" name="Generics">
+        <modelElement href="OOGames.uml#_UqR6YXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lm9AIHxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6YnvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9AIXxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm9AInxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm9AI3xPEeK7_aiwPhZIAQ" name="IBoardLambda">
+        <modelElement href="OOGames.uml#_dE8xwHv0EeKz-5PjZFtJ-Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm9AJHxPEeK7_aiwPhZIAQ" defaultValue="new SBW_DXN_AlphaBetaFac()" name="_accFac">
+      <modelElement href="OOGames.uml#_UqR6Y3vuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm9AJXxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6ZXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lm9AJnxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6ZXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9AJ3xPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm9AKHxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm9AKXxPEeK7_aiwPhZIAQ" name="SBW_DXN_IAccFactory">
+        <modelElement href="OOGames.uml#_UfRkI3vuEeKz-5PjZFtJ-Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm9AKnxPEeK7_aiwPhZIAQ" name="_model">
+      <modelElement href="OOGames.uml#_UqR6ZnvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm9AK3xPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6Z3vuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lm25GHxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6Z3vuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9ALHxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm9ALXxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm9ALnxPEeK7_aiwPhZIAQ" name="IModel">
+        <modelElement href="OOGames.uml#_UhDs13vuEeKz-5PjZFtJ-Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm9AL3xPEeK7_aiwPhZIAQ" name="board">
+      <modelElement href="OOGames.uml#_UqR6aHvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm9AMHxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6aXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lm9AMXxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6aXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9AMnxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm9AM3xPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm9ANHxPEeK7_aiwPhZIAQ" name="IBoardModel">
+        <modelElement href="OOGames.uml#_Ug6i4HvuEeKz-5PjZFtJ-Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm9ANXxPEeK7_aiwPhZIAQ" name="dim">
+      <modelElement href="OOGames.uml#_UqR6anvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm9ANnxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6a3vuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lm9AN3xPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6a3vuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9AOHxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm9AOXxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm9AOnxPEeK7_aiwPhZIAQ" name="Dimension">
+        <modelElement href="OOGames.uml#_UnnAxnvuEeKz-5PjZFtJ-Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm9AO3xPEeK7_aiwPhZIAQ" defaultValue="new ICheckMoveVisitor() {&#xA;&#x9;&#x9;public void invalidMoveCase() {&#xA;&#x9;&#x9;&#x9;throw new IllegalStateException(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&quot;MinMax.minMaxEval.validMoveVisitor.invalidMoveCase() should be unreachable!&quot;);&#xA;&#x9;&#x9;}&#xA;&#x9;&#x9;public void validMoveCase() {&#xA;&#x9;&#x9;&#x9;// do nothing -- just want to see if a terminal state was reached or not.&#xA;&#x9;&#x9;}&#xA;&#x9;}" name="validMoveVisitor">
+      <modelElement href="OOGames.uml#_UqR6bHvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm9APHxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6bnvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lm9APXxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6bnvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9APnxPEeK7_aiwPhZIAQ" label="~"/>
+      <cardinality xmi:id="_lm9AP3xPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm9AQHxPEeK7_aiwPhZIAQ" name="ICheckMoveVisitor">
+        <modelElement href="OOGames.uml#_UhDs0XvuEeKz-5PjZFtJ-Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm9AQXxPEeK7_aiwPhZIAQ" defaultValue="new IUndoVisitor() {&#xA;&#x9;&#x9;public void noTokenCase() {&#xA;&#x9;&#x9;&#x9;throw new IllegalStateException(&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&quot;MinMax.minMaxEval.validUndo.noTokenCase() should be unreachable!&quot;);&#xA;&#x9;&#x9;}&#xA;&#x9;&#x9;public void tokenCase(int value) {&#xA;&#x9;&#x9;&#x9;// for diagnostics only&#xA;&#x9;&#x9;}&#xA;&#x9;}" name="validUndo">
+      <modelElement href="OOGames.uml#_UqR6b3vuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm9AQnxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6cXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lm9AQ3xPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6cXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9ARHxPEeK7_aiwPhZIAQ" label="~"/>
+      <cardinality xmi:id="_lm9ARXxPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm9ARnxPEeK7_aiwPhZIAQ" name="IUndoVisitor">
+        <modelElement href="OOGames.uml#_UhNd13vuEeKz-5PjZFtJ-Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_lm9AR3xPEeK7_aiwPhZIAQ" defaultValue="new IBoardLambda&lt;SBW_DXN_AAccumulator>() {&#xA;&#x9;&#x9;/**&#xA;&#x9;&#x9; * @param host board&#xA;&#x9;&#x9; * @param param The accumulator for the best move and value so far.&#xA;&#x9;&#x9; * @param row The row of the move being currently tested.&#xA;&#x9;&#x9; * @param col The col of the move being currently tested.&#xA;&#x9;&#x9; * @param value The value of the token on this (row, col),&#xA;&#x9;&#x9; * e.g. always 0 = empty for TicTacToe&#xA;&#x9;&#x9; * @return true always = process all valid moves.&#xA;&#x9;&#x9; */&#xA;&#x9;&#x9;public boolean apply(final int player, IBoardModel host,  final int row,&#xA;&#x9;&#x9;&#x9;&#x9;final int col, int value, final SBW_DXN_AAccumulator... accs) {&#xA;&#x9;&#x9;&#x9;// Make this move and see what happens&#xA;&#x9;&#x9;&#x9;IUndoMove undo = host.makeMove(row, col, accs[0].getPlayer(), validMoveVisitor,&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;new IBoardStatusVisitor&lt;Void, Void>() {&#xA;&#x9;&#x9;&#x9;&#x9;public Void player0WonCase(IBoardModel host, Void... nu) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;// Terminal situation -- update the accumulator.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;accs[0].updateBest(row, col, win0ValueForPlayer(accs[0].getModelPlayer()));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;return null;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;public Void player1WonCase(IBoardModel host, Void... nu) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;// Terminal situation -- update the accumulator.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;accs[0].updateBest(row, col, win1ValueForPlayer(accs[0].getModelPlayer()));&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;return null;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;public Void drawCase(IBoardModel host, Void... nu) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;// Terminal situation -- update the accumulator.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;accs[0].updateBest(row, col, 0);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;return null;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;&#x9;&#x9;public Void noWinnerCase(IBoardModel host, Void... nu) {&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;// Non-terminal situation -- recur using the opposite accumulation.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;SBW_DXN_AAccumulator nextAcc = accs[0].makeOpposite();&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;recur(nextAcc.getPlayer(), nextAcc);&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;//host.map(nextAcc.getPlayer(), minMaxEval, nextAcc); // nextAcc contains the best move&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;//and value of the child node.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;// Update the accumulator&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;accs[0].updateBest(row, col, nextAcc.getVal());&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;return null;&#xA;&#x9;&#x9;&#x9;&#x9;}&#xA;&#x9;&#x9;&#x9;});&#xA;&#x9;&#x9;&#x9;undo.apply(validUndo);&#xA;&#x9;&#x9;&#x9;return accs[0].isNotDone();&#xA;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;public void noApply(int player, IBoardModel host, SBW_DXN_AAccumulator... accs) {&#xA;&#x9;&#x9;&#x9;// System.out.println(&quot;MinMax.noApply()::  skipping player &quot;+player);&#xA;&#xA;&#x9;&#x9;&#x9;SBW_DXN_AAccumulator nextAcc = accs[0].makeOpposite();&#xA;&#x9;&#x9;&#x9;recur(nextAcc.getPlayer(), nextAcc);&#xA;&#x9;&#x9;&#x9;//host.map(nextAcc.getPlayer(), minMaxEval, nextAcc); // nextAcc contains the best move&#xA;&#x9;&#x9;&#x9;//and value of the child node.&#xA;&#x9;&#x9;&#x9;// Update the accumulator&#xA;&#x9;&#x9;&#x9;accs[0].updateBest(-1,-1, nextAcc.getVal());&#xA;&#x9;&#x9;}&#xA;&#x9;}" name="minMaxEval">
+      <modelElement href="OOGames.uml#_UqR6cnvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_lm9ASHxPEeK7_aiwPhZIAQ" name="Generics">
+        <modelElement href="OOGames.uml#_UqR6c3vuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_lm9ASXxPEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqR6dXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_lm9ASnxPEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_lm9AS3xPEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_lm9ATHxPEeK7_aiwPhZIAQ" name="IBoardLambda">
+        <modelElement href="OOGames.uml#_dE8xwHv0EeKz-5PjZFtJ-Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_lm9ATXxPEeK7_aiwPhZIAQ" comments="_lmwycnxPEeK7_aiwPhZIAQ" targetConnectionVisual="_lmwyc3xPEeK7_aiwPhZIAQ" name="win0ValueForPlayer">
+      <modelElement href="OOGames.uml#_UfuQEHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm9ATnxPEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_lm9AT3xPEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_UfuQEnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9AUHxPEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lm9AUXxPEeK7_aiwPhZIAQ" name="p">
+        <modelElement href="OOGames.uml#_UfuQEXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9AUnxPEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lm9AU3xPEeK7_aiwPhZIAQ" comments="_lmwydHxPEeK7_aiwPhZIAQ" targetConnectionVisual="_lmwydXxPEeK7_aiwPhZIAQ" name="win1ValueForPlayer">
+      <modelElement href="OOGames.uml#_UfuQE3vuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm9AVHxPEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_lm9AVXxPEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_UfuQFXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9AVnxPEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lm9AV3xPEeK7_aiwPhZIAQ" name="p">
+        <modelElement href="OOGames.uml#_UfuQFHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9AWHxPEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lm9AWXxPEeK7_aiwPhZIAQ" name="SBW_DXN_strategy1">
+      <modelElement href="OOGames.uml#_UndPzHvuEeKz-5PjZFtJ-Q"/>
+      <keywords xmi:id="_lm9AWnxPEeK7_aiwPhZIAQ" keyword="create"/>
+      <visibility xmi:id="_lm9AW3xPEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_lm9AXHxPEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_UndP0HvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9AXXxPEeK7_aiwPhZIAQ" name="SBW_DXN_strategy1">
+          <modelElement href="OOGames.uml#_UfkfEHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lm9AXnxPEeK7_aiwPhZIAQ" name="model">
+        <modelElement href="OOGames.uml#_UndPzXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9AX3xPEeK7_aiwPhZIAQ" name="IModel">
+          <modelElement href="OOGames.uml#_UhDs13vuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lm9AYHxPEeK7_aiwPhZIAQ" name="recur">
+      <modelElement href="OOGames.uml#_UndP0XvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm9AYXxPEeK7_aiwPhZIAQ" label="-"/>
+      <parameters xmi:id="_lm9AYnxPEeK7_aiwPhZIAQ" name="player">
+        <modelElement href="OOGames.uml#_UndP0nvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9AY3xPEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lm9AZHxPEeK7_aiwPhZIAQ" name="accum">
+        <modelElement href="OOGames.uml#_UndP03vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9AZXxPEeK7_aiwPhZIAQ" name="SBW_DXN_AAccumulator">
+          <modelElement href="OOGames.uml#_Ue04MHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lm9AZnxPEeK7_aiwPhZIAQ" name="payOff">
+      <modelElement href="OOGames.uml#_UndP1HvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm9AZ3xPEeK7_aiwPhZIAQ" label="-"/>
+      <outParameters xmi:id="_lm9AaHxPEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_UndP13vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9AaXxPEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lm9AanxPEeK7_aiwPhZIAQ" name="dpth">
+        <modelElement href="OOGames.uml#_UndP1XvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9Aa3xPEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lm9AbHxPEeK7_aiwPhZIAQ" name="a">
+        <modelElement href="OOGames.uml#_UndP1nvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9AbXxPEeK7_aiwPhZIAQ" name="SBW_DXN_AAccumulator">
+          <modelElement href="OOGames.uml#_Ue04MHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_lm9AbnxPEeK7_aiwPhZIAQ" comments="_lmwydnxPEeK7_aiwPhZIAQ" targetConnectionVisual="_lmwyd3xPEeK7_aiwPhZIAQ" name="getNextMove">
+      <modelElement href="OOGames.uml#_UndP2HvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_lm9Ab3xPEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_lm9AcHxPEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Uo8diHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9AcXxPEeK7_aiwPhZIAQ" name="Point">
+          <modelElement href="OOGames.uml#_UnKU0HvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_lm9AcnxPEeK7_aiwPhZIAQ" name="context">
+        <modelElement href="OOGames.uml#_UndP2XvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9Ac3xPEeK7_aiwPhZIAQ" name="IModel">
+          <modelElement href="OOGames.uml#_UhDs13vuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_lm9AdHxPEeK7_aiwPhZIAQ" name="player">
+        <modelElement href="OOGames.uml#_UndP2nvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_lm9AdXxPEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oaqIYHxNEeK7_aiwPhZIAQ" name="MinMax" associationsOut="_oaqIUHxNEeK7_aiwPhZIAQ" generalizations="_v19cQnxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VlgMdHvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oaqIYXxNEeK7_aiwPhZIAQ" position="-1080.0,251.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oaqIYnxNEeK7_aiwPhZIAQ" label="+"/>
+    <attributes xmi:id="_oaqIY3xNEeK7_aiwPhZIAQ" defaultValue="Integer.MAX_VALUE-1" name="MAX_VALUE">
+      <modelElement href="OOGames.uml#_VnSVGXvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_oaqIZHxNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_VnSVG3vuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oaqIZXxNEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_oaqIZnxNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oaqIZ3xNEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oaqIaHxNEeK7_aiwPhZIAQ" name="_accFac">
+      <modelElement href="OOGames.uml#_VnSVHHvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_oaqIaXxNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_VnSVHXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oaqIX3xNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_VnSVHXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oaqIanxNEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_oaqIa3xNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oaqIbHxNEeK7_aiwPhZIAQ" name="IAccFactory">
+        <modelElement href="OOGames.uml#_Up-_VXvuEeKz-5PjZFtJ-Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oaqIbXxNEeK7_aiwPhZIAQ" defaultValue="new IBoardLambda&lt;AAccumulator>() {&#xA;        //int undoPlayer; // for diagnostics only&#xA;        ICheckMoveVisitor validMoveVisitor = new ICheckMoveVisitor() {&#xA;            public void invalidMoveCase() {&#xA;                throw new IllegalStateException(&#xA;                &quot;MinMax.minMaxEval.validMoveVisitor.invalidMoveCase() should be unreachable!&quot;);&#xA;              }&#xA;            public void validMoveCase() {&#xA;                // do nothing -- just want to see if a terminal state was reached or not.&#xA;            }&#xA;        };&#xA;        IUndoVisitor validUndo = new IUndoVisitor() {&#xA;            public void noTokenCase() {&#xA;                throw new IllegalStateException(&#xA;                &quot;MinMax.minMaxEval.validUndo.noTokenCase() should be unreachable!&quot;);&#xA;            }&#xA;            public void tokenCase(int value) {&#xA;                //undoPlayer = value;  // for diagnostics only&#xA;            }&#xA;        };&#xA;        /**&#xA;        * @param host board&#xA;        * @param param The accumulator for the best move and value so far.&#xA;        * @param row The row of the move being currently tested.&#xA;        * @param col The col of the move being currently tested.&#xA;        * @param value The value of the token on this (row, col),&#xA;        * e.g. always 0 = empty for TicTacToe&#xA;        * @return true always = process all valid moves.&#xA;        */&#xA;        public boolean apply(final int player, IBoardModel host,  final int row,&#xA;                             final int col, int value, final AAccumulator... accs) {&#xA;            IUndoMove undo = host.makeMove(row, col, accs[0].getPlayer(), validMoveVisitor,&#xA;                new IBoardStatusVisitor&lt;Void, Void>() {&#xA;                    public Void player0WonCase(IBoardModel host, Void... nu) {&#xA;                        accs[0].updateBest(row, col, win0ValueForPlayer(accs[0].getModelPlayer()));&#xA;                        return null;&#xA;                    }&#xA;&#xA;                    public Void player1WonCase(IBoardModel host, Void... nu) {&#xA;                        accs[0].updateBest(row, col, win1ValueForPlayer(accs[0].getModelPlayer()));&#xA;                        return null;&#xA;                    }&#xA;&#xA;                    public Void drawCase(IBoardModel host, Void... nu) {&#xA;                        accs[0].updateBest(row, col, 0);&#xA;                        return null;&#xA;                    }&#xA;&#xA;                    public Void noWinnerCase(IBoardModel host, Void... nu) {&#xA;                        AAccumulator nextAcc = accs[0].makeOpposite();&#xA;                        host.map(nextAcc.getPlayer(), minMaxEval, nextAcc); // nextAcc contains the best move&#xA;                                                       //and value of the child node.&#xA;                        accs[0].updateBest(row, col, nextAcc.getVal());&#xA;                        return null;&#xA;                    }&#xA;                });&#xA;              undo.apply(validUndo);&#xA;              return accs[0].isNotDone();&#xA;        }&#xA;&#xA;        public void noApply(int player, IBoardModel host, AAccumulator... accs) {&#xA;            Point p = accs[0].getMove();&#xA;            AAccumulator nextAcc = accs[0].makeOpposite();&#xA;            host.map(nextAcc.getPlayer(), minMaxEval, nextAcc); // nextAcc contains the best move&#xA;                                                       //and value of the child node.&#xA;            // Update the accumulator&#xA;//acc.updateBest(nextAcc.getMove().y,nextAcc.getMove().x, nextAcc.getVal());&#xA;            accs[0].updateBest(p.y, p.x, nextAcc.getVal());&#xA;        }&#xA;    }" name="minMaxEval">
+      <modelElement href="OOGames.uml#_VnSVHnvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_oaqIbnxNEeK7_aiwPhZIAQ" name="Generics">
+        <modelElement href="OOGames.uml#_VnSVH3vuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oaqIb3xNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_VnSVIXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oaqIcHxNEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_oaqIcXxNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oaqIcnxNEeK7_aiwPhZIAQ" name="IBoardLambda">
+        <modelElement href="OOGames.uml#_dE8xwHv0EeKz-5PjZFtJ-Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oaqIc3xNEeK7_aiwPhZIAQ" name="MinMax">
+      <modelElement href="OOGames.uml#_VlgMdnvuEeKz-5PjZFtJ-Q"/>
+      <keywords xmi:id="_oaqIdHxNEeK7_aiwPhZIAQ" keyword="create"/>
+      <visibility xmi:id="_oaqIdXxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oaqIdnxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_VlgMenvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaqId3xNEeK7_aiwPhZIAQ" name="MinMax">
+          <modelElement href="OOGames.uml#_VlgMdHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaqIeHxNEeK7_aiwPhZIAQ" name="accFac">
+        <modelElement href="OOGames.uml#_VlgMd3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaqIeXxNEeK7_aiwPhZIAQ" name="IAccFactory">
+          <modelElement href="OOGames.uml#_Up-_VXvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oaqIenxNEeK7_aiwPhZIAQ" comments="_oaqIVXxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oaqIVnxNEeK7_aiwPhZIAQ" name="win0ValueForPlayer">
+      <modelElement href="OOGames.uml#_Vlp9YHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oaqIe3xNEeK7_aiwPhZIAQ" label="-"/>
+      <outParameters xmi:id="_oaqIfHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Vlp9YnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaqIfXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaqIfnxNEeK7_aiwPhZIAQ" name="p">
+        <modelElement href="OOGames.uml#_Vlp9YXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaqIf3xNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oaqIgHxNEeK7_aiwPhZIAQ" comments="_oaqIV3xNEeK7_aiwPhZIAQ" targetConnectionVisual="_oaqIWHxNEeK7_aiwPhZIAQ" name="win1ValueForPlayer">
+      <modelElement href="OOGames.uml#_Vlp9Y3vuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oaqIgXxNEeK7_aiwPhZIAQ" label="-"/>
+      <outParameters xmi:id="_oaqIgnxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Vlp9ZXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaqIg3xNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaqIhHxNEeK7_aiwPhZIAQ" name="p">
+        <modelElement href="OOGames.uml#_Vlp9ZHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaqIhXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oaqIhnxNEeK7_aiwPhZIAQ" comments="_oaqIWXxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oaqIWnxNEeK7_aiwPhZIAQ" name="getNextMove">
+      <modelElement href="OOGames.uml#_Vlp9ZnvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oaqIh3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oaqIiHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Vlp9aXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaqIiXxNEeK7_aiwPhZIAQ" name="Point">
+          <modelElement href="OOGames.uml#_UnKU0HvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaqIinxNEeK7_aiwPhZIAQ" name="context">
+        <modelElement href="OOGames.uml#_Vlp9Z3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaqIi3xNEeK7_aiwPhZIAQ" name="IModel">
+          <modelElement href="OOGames.uml#_UhDs13vuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oaqIjHxNEeK7_aiwPhZIAQ" name="player">
+        <modelElement href="OOGames.uml#_Vlp9aHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaqIjXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_oaRt0XxNEeK7_aiwPhZIAQ" using="_aOJUYXxPEeK7_aiwPhZIAQ" name="IAccFactory" associationsIn="_oad7EXxNEeK7_aiwPhZIAQ _oaqIUHxNEeK7_aiwPhZIAQ" subclassedBy="_oaRt0HxNEeK7_aiwPhZIAQ _oad7EnxNEeK7_aiwPhZIAQ _oawO8HxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Up-_VXvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oaRt0nxNEeK7_aiwPhZIAQ" position="-949.0,498.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oaRt03xNEeK7_aiwPhZIAQ" label="+"/>
+    <operations xmi:id="_oaRt1HxNEeK7_aiwPhZIAQ" abstractOperation="true" name="makeAcc">
+      <modelElement href="OOGames.uml#_VlXCe3vuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oaRt1XxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oaRt1nxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_VlXCfXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaRt13xNEeK7_aiwPhZIAQ" name="AAccumulator">
+          <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaRt2HxNEeK7_aiwPhZIAQ" name="player">
+        <modelElement href="OOGames.uml#_VlXCfHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaRt2XxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oZayMHxNEeK7_aiwPhZIAQ" supplying="_aOJUYXxPEeK7_aiwPhZIAQ" name="AAccumulator" abstractClass="true" associationsIn="_oZg40HxNEeK7_aiwPhZIAQ" subclassedBy="_oZg40XxNEeK7_aiwPhZIAQ _oaFgkHxNEeK7_aiwPhZIAQ _oaX0cHxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oZayMXxNEeK7_aiwPhZIAQ" position="-326.0,501.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oZayMnxNEeK7_aiwPhZIAQ" label="+"/>
+    <attributes xmi:id="_oZayM3xNEeK7_aiwPhZIAQ" name="_modelPlayer">
+      <modelElement href="OOGames.uml#_UqumXHvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_oZayNHxNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqumXXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oZayNXxNEeK7_aiwPhZIAQ" label="+"/>
+      <cardinality xmi:id="_oZayNnxNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oZayN3xNEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oZayOHxNEeK7_aiwPhZIAQ" defaultValue="-10" name="_row">
+      <modelElement href="OOGames.uml#_UqumXnvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_oZayOXxNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_UqumYHvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oZayOnxNEeK7_aiwPhZIAQ" label="#"/>
+      <cardinality xmi:id="_oZayO3xNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oZayPHxNEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oZayPXxNEeK7_aiwPhZIAQ" defaultValue="-10" name="_col">
+      <modelElement href="OOGames.uml#_Uq4XMHvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_oZayPnxNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_Uq4XMnvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oZayP3xNEeK7_aiwPhZIAQ" label="#"/>
+      <cardinality xmi:id="_oZayQHxNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oZayQXxNEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oZayQnxNEeK7_aiwPhZIAQ" name="_val">
+      <modelElement href="OOGames.uml#_Uq4XM3vuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_oZayQ3xNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_Uq4XNHvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oZayRHxNEeK7_aiwPhZIAQ" label="#"/>
+      <cardinality xmi:id="_oZayRXxNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oZayRnxNEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oZayR3xNEeK7_aiwPhZIAQ" name="AAccumulator">
+      <modelElement href="OOGames.uml#_Ui11gXvuEeKz-5PjZFtJ-Q"/>
+      <keywords xmi:id="_oZaySHxNEeK7_aiwPhZIAQ" keyword="create"/>
+      <visibility xmi:id="_oZaySXxNEeK7_aiwPhZIAQ" label="#"/>
+      <outParameters xmi:id="_oZaySnxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Ui11hXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZayS3xNEeK7_aiwPhZIAQ" name="AAccumulator">
+          <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oZayTHxNEeK7_aiwPhZIAQ" name="modelPlayer">
+        <modelElement href="OOGames.uml#_Ui11gnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZayTXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oZayTnxNEeK7_aiwPhZIAQ" abstractOperation="true" name="makeOpposite">
+      <modelElement href="OOGames.uml#_Ui11hnvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZayT3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZayUHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_UofxrnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZayUXxNEeK7_aiwPhZIAQ" name="AAccumulator">
+          <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZayUnxNEeK7_aiwPhZIAQ" comments="_oZUrkHxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oZUrkXxNEeK7_aiwPhZIAQ" name="getModelPlayer">
+      <modelElement href="OOGames.uml#_Ui11h3vuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZayU3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZayVHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Ui11iHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZayVXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZayVnxNEeK7_aiwPhZIAQ" comments="_oZUrknxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oZUrk3xNEeK7_aiwPhZIAQ" abstractOperation="true" name="getPlayer">
+      <modelElement href="OOGames.uml#_Ui11iXvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZayV3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZayWHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Ui11invuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZayWXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZayWnxNEeK7_aiwPhZIAQ" name="getVal">
+      <modelElement href="OOGames.uml#_Ui11i3vuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZayW3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZayXHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Ui11jHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZayXXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZayXnxNEeK7_aiwPhZIAQ" name="getMove">
+      <modelElement href="OOGames.uml#_Ui11jXvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZayX3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZayYHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Up-_UXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZayYXxNEeK7_aiwPhZIAQ" name="Point">
+          <modelElement href="OOGames.uml#_UnKU0HvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZayYnxNEeK7_aiwPhZIAQ" comments="_oZUrlHxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oZUrlXxNEeK7_aiwPhZIAQ" abstractOperation="true" name="updateBest">
+      <modelElement href="OOGames.uml#_Ui11jnvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZayY3xNEeK7_aiwPhZIAQ" label="+"/>
+      <parameters xmi:id="_oZayZHxNEeK7_aiwPhZIAQ" name="row">
+        <modelElement href="OOGames.uml#_Ui11j3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZayZXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oZayZnxNEeK7_aiwPhZIAQ" name="col">
+        <modelElement href="OOGames.uml#_Ui11kHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZayZ3xNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oZayaHxNEeK7_aiwPhZIAQ" name="childVal">
+        <modelElement href="OOGames.uml#_Ui11kXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZayaXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oZayanxNEeK7_aiwPhZIAQ" name="isNotDone">
+      <modelElement href="OOGames.uml#_Ui11knvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZaya3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZaybHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Ui11k3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZaybXxNEeK7_aiwPhZIAQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oakBtXxNEeK7_aiwPhZIAQ" name="DepthFac" associationsOut="_oad7EXxNEeK7_aiwPhZIAQ" generalizations="_oad7EnxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VlXCcHvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oakBtnxNEeK7_aiwPhZIAQ" position="-742.0,657.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oakBt3xNEeK7_aiwPhZIAQ" label="+"/>
+    <attributes xmi:id="_oakBuHxNEeK7_aiwPhZIAQ" defaultValue="0" name="_maxDepth">
+      <modelElement href="OOGames.uml#_VnSVFHvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_oakBuXxNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_VnSVFnvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oakBunxNEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_oakBu3xNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oakBvHxNEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oakBvXxNEeK7_aiwPhZIAQ" name="_accFac">
+      <modelElement href="OOGames.uml#_VnSVF3vuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_oakBvnxNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_VnSVGHvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oakBtHxNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_VnSVGHvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oakBv3xNEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_oakBwHxNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oakBwXxNEeK7_aiwPhZIAQ" name="IAccFactory">
+        <modelElement href="OOGames.uml#_Up-_VXvuEeKz-5PjZFtJ-Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oakBwnxNEeK7_aiwPhZIAQ" name="DepthFac">
+      <modelElement href="OOGames.uml#_VlXCcnvuEeKz-5PjZFtJ-Q"/>
+      <keywords xmi:id="_oakBw3xNEeK7_aiwPhZIAQ" keyword="create"/>
+      <visibility xmi:id="_oakBxHxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oakBxXxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_VlXCd3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oakBxnxNEeK7_aiwPhZIAQ" name="DepthFac">
+          <modelElement href="OOGames.uml#_VlXCcHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oakBx3xNEeK7_aiwPhZIAQ" name="accFac">
+        <modelElement href="OOGames.uml#_VlXCc3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oakByHxNEeK7_aiwPhZIAQ" name="IAccFactory">
+          <modelElement href="OOGames.uml#_Up-_VXvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oakByXxNEeK7_aiwPhZIAQ" name="maxDepth">
+        <modelElement href="OOGames.uml#_VlXCdHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oakBynxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oakBy3xNEeK7_aiwPhZIAQ" name="makeAcc">
+      <modelElement href="OOGames.uml#_VlXCeHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oakBzHxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oakBzXxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_VlXCenvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oakBznxNEeK7_aiwPhZIAQ" name="AAccumulator">
+          <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oakBz3xNEeK7_aiwPhZIAQ" name="player">
+        <modelElement href="OOGames.uml#_VlXCeXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oakB0HxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oZ5TUHxNEeK7_aiwPhZIAQ" name="AlphaBetaFac" generalizations="_oaRt0HxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Ui_mjXvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oZ5TUXxNEeK7_aiwPhZIAQ" position="-1022.0,744.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oZ5TUnxNEeK7_aiwPhZIAQ" label="+"/>
+    <operations xmi:id="_oZ5TU3xNEeK7_aiwPhZIAQ" name="makeAcc">
+      <modelElement href="OOGames.uml#_Ui_mjnvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZ5TVHxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZ5TVXxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_UopimnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZ5TVnxNEeK7_aiwPhZIAQ" name="AAccumulator">
+          <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oZ5TV3xNEeK7_aiwPhZIAQ" name="player">
+        <modelElement href="OOGames.uml#_Ui_mj3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZ5TWHxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oawO8XxNEeK7_aiwPhZIAQ" name="MinMaxFac" generalizations="_oawO8HxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Vlp9anvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oawO8nxNEeK7_aiwPhZIAQ" position="-1069.0,652.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oawO83xNEeK7_aiwPhZIAQ" label="+"/>
+    <operations xmi:id="_oawO9HxNEeK7_aiwPhZIAQ" name="makeAcc">
+      <modelElement href="OOGames.uml#_Vlp9bHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oawO9XxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oawO9nxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Vlp9bnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oawO93xNEeK7_aiwPhZIAQ" name="AAccumulator">
+          <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oawO-HxNEeK7_aiwPhZIAQ" name="player">
+        <modelElement href="OOGames.uml#_Vlp9bXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oawO-XxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oZzMsHxNEeK7_aiwPhZIAQ" name="AlphaAcc" generalizations="_oaFgkXxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Ui_mhnvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oZzMsXxNEeK7_aiwPhZIAQ" position="-783.0,1020.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oZzMsnxNEeK7_aiwPhZIAQ" label="+"/>
+    <operations xmi:id="_oZzMs3xNEeK7_aiwPhZIAQ" name="AlphaAcc">
+      <modelElement href="OOGames.uml#_Ui_mh3vuEeKz-5PjZFtJ-Q"/>
+      <keywords xmi:id="_oZzMtHxNEeK7_aiwPhZIAQ" keyword="create"/>
+      <visibility xmi:id="_oZzMtXxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZzMtnxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Ui_mi3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZzMt3xNEeK7_aiwPhZIAQ" name="AlphaAcc">
+          <modelElement href="OOGames.uml#_Ui_mhnvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oZzMuHxNEeK7_aiwPhZIAQ" name="player">
+        <modelElement href="OOGames.uml#_Ui_miHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZzMuXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oZzMunxNEeK7_aiwPhZIAQ" name="makeOpposite">
+      <modelElement href="OOGames.uml#_Ui_mjHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZzMu3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZzMvHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_UopimXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZzMvXxNEeK7_aiwPhZIAQ" name="AAccumulator">
+          <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oaLnOHxNEeK7_aiwPhZIAQ" name="MaxAcc" generalizations="_oaFgkHxNEeK7_aiwPhZIAQ" subclassedBy="_oaFgkXxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Up-_UnvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oaLnOXxNEeK7_aiwPhZIAQ" position="-843.0,856.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oaLnOnxNEeK7_aiwPhZIAQ" label="+"/>
+    <operations xmi:id="_oaLnO3xNEeK7_aiwPhZIAQ" comments="_oaLnMHxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oaLnMXxNEeK7_aiwPhZIAQ" name="makeOpposite">
+      <modelElement href="OOGames.uml#_VhMUIHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oaLnPHxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oaLnPXxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_VhMUIXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaLnPnxNEeK7_aiwPhZIAQ" name="AAccumulator">
+          <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oaLnP3xNEeK7_aiwPhZIAQ" comments="_oaLnMnxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oaLnM3xNEeK7_aiwPhZIAQ" name="getPlayer">
+      <modelElement href="OOGames.uml#_VhMUInvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oaLnQHxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oaLnQXxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_VlgMaXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaLnQnxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oaLnQ3xNEeK7_aiwPhZIAQ" comments="_oaLnNHxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oaLnNXxNEeK7_aiwPhZIAQ" name="MaxAcc">
+      <modelElement href="OOGames.uml#_VlgMYHvuEeKz-5PjZFtJ-Q"/>
+      <keywords xmi:id="_oaLnRHxNEeK7_aiwPhZIAQ" keyword="create"/>
+      <visibility xmi:id="_oaLnRXxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oaLnRnxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_VlgMYnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaLnR3xNEeK7_aiwPhZIAQ" name="MaxAcc">
+          <modelElement href="OOGames.uml#_Up-_UnvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaLnSHxNEeK7_aiwPhZIAQ" name="modelPlayer">
+        <modelElement href="OOGames.uml#_VlgMYXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaLnSXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oaLnSnxNEeK7_aiwPhZIAQ" comments="_oaLnNnxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oaLnN3xNEeK7_aiwPhZIAQ" name="updateBest">
+      <modelElement href="OOGames.uml#_VlgMZXvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oaLnS3xNEeK7_aiwPhZIAQ" label="+"/>
+      <parameters xmi:id="_oaLnTHxNEeK7_aiwPhZIAQ" name="row">
+        <modelElement href="OOGames.uml#_VlgMZnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaLnTXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oaLnTnxNEeK7_aiwPhZIAQ" name="col">
+        <modelElement href="OOGames.uml#_VlgMZ3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaLnT3xNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oaLnUHxNEeK7_aiwPhZIAQ" name="childVal">
+        <modelElement href="OOGames.uml#_VlgMaHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaLnUXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oZ5TWXxNEeK7_aiwPhZIAQ" name="BetaAcc" generalizations="_oaX0cXxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Ui_mkHvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oZ5TWnxNEeK7_aiwPhZIAQ" position="-477.0,1026.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oZ5TW3xNEeK7_aiwPhZIAQ" label="+"/>
+    <operations xmi:id="_oZ5TXHxNEeK7_aiwPhZIAQ" name="BetaAcc">
+      <modelElement href="OOGames.uml#_Ui_mkXvuEeKz-5PjZFtJ-Q"/>
+      <keywords xmi:id="_oZ5TXXxNEeK7_aiwPhZIAQ" keyword="create"/>
+      <visibility xmi:id="_oZ5TXnxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZ5TX3xNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Ui_mlXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZ5TYHxNEeK7_aiwPhZIAQ" name="BetaAcc">
+          <modelElement href="OOGames.uml#_Ui_mkHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oZ5TYXxNEeK7_aiwPhZIAQ" name="player">
+        <modelElement href="OOGames.uml#_Ui_mknvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZ5TYnxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oZ5TY3xNEeK7_aiwPhZIAQ" name="makeOpposite">
+      <modelElement href="OOGames.uml#_Ui_mlnvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZ5TZHxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZ5TZXxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Uopim3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZ5TZnxNEeK7_aiwPhZIAQ" name="AAccumulator">
+          <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oZ_Z8XxNEeK7_aiwPhZIAQ" name="DepthAcc" generalizations="_oZ_Z8HxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Ui_ml3vuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oZ_Z8nxNEeK7_aiwPhZIAQ" position="-189.0,1162.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oZ_Z83xNEeK7_aiwPhZIAQ" label="+"/>
+    <operations xmi:id="_oZ_Z9HxNEeK7_aiwPhZIAQ" name="makeOpposite">
+      <modelElement href="OOGames.uml#_UjJXgHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZ_Z9XxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZ_Z9nxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Uopio3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZ_Z93xNEeK7_aiwPhZIAQ" name="AAccumulator">
+          <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZ_Z-HxNEeK7_aiwPhZIAQ" name="payoff">
+      <modelElement href="OOGames.uml#_UjJXgXvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZ_Z-XxNEeK7_aiwPhZIAQ" label="-"/>
+      <outParameters xmi:id="_oZ_Z-nxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_UjJXgnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZ_Z-3xNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZ_Z_HxNEeK7_aiwPhZIAQ" name="DepthAcc">
+      <modelElement href="OOGames.uml#_UopinHvuEeKz-5PjZFtJ-Q"/>
+      <keywords xmi:id="_oZ_Z_XxNEeK7_aiwPhZIAQ" keyword="create"/>
+      <visibility xmi:id="_oZ_Z_nxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZ_Z_3xNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_UopionvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZ_aAHxNEeK7_aiwPhZIAQ" name="DepthAcc">
+          <modelElement href="OOGames.uml#_Ui_ml3vuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oZ_aAXxNEeK7_aiwPhZIAQ" name="mP">
+        <modelElement href="OOGames.uml#_UopinXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZ_aAnxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oZ_aA3xNEeK7_aiwPhZIAQ" name="acc">
+        <modelElement href="OOGames.uml#_UopinnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZ_aBHxNEeK7_aiwPhZIAQ" name="AAccumulator">
+          <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oZ_aBXxNEeK7_aiwPhZIAQ" name="maxD">
+        <modelElement href="OOGames.uml#_Uopin3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZ_aBnxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oZm_dXxNEeK7_aiwPhZIAQ" name="ADepthAcc" abstractClass="true" associationsOut="_oZg40HxNEeK7_aiwPhZIAQ" generalizations="_oZg40XxNEeK7_aiwPhZIAQ" subclassedBy="_oZ_Z8HxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Ui11lHvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oZm_dnxNEeK7_aiwPhZIAQ" position="-192.0,855.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oZm_d3xNEeK7_aiwPhZIAQ" label="+"/>
+    <attributes xmi:id="_oZm_eHxNEeK7_aiwPhZIAQ" name="_acc">
+      <modelElement href="OOGames.uml#_Uq4XNXvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_oZm_eXxNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_Uq4XNnvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oZm_dHxNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_Uq4XNnvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oZm_enxNEeK7_aiwPhZIAQ" label="#"/>
+      <cardinality xmi:id="_oZm_e3xNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oZm_fHxNEeK7_aiwPhZIAQ" name="AAccumulator">
+        <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_oZm_fXxNEeK7_aiwPhZIAQ" defaultValue="0" name="_maxDepth">
+      <modelElement href="OOGames.uml#_Uq4XN3vuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_oZm_fnxNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_Uq4XOXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oZm_f3xNEeK7_aiwPhZIAQ" label="#"/>
+      <cardinality xmi:id="_oZm_gHxNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oZm_gXxNEeK7_aiwPhZIAQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oZm_gnxNEeK7_aiwPhZIAQ" name="getModelPlayer">
+      <modelElement href="OOGames.uml#_Ui11lXvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZm_g3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZm_hHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Ui11lnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_hXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZm_hnxNEeK7_aiwPhZIAQ" name="getVal">
+      <modelElement href="OOGames.uml#_Ui11l3vuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZm_h3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZm_iHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Ui11mHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_iXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZm_inxNEeK7_aiwPhZIAQ" name="getMove">
+      <modelElement href="OOGames.uml#_Ui11mXvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZm_i3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZm_jHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Uopil3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_jXxNEeK7_aiwPhZIAQ" name="Point">
+          <modelElement href="OOGames.uml#_UnKU0HvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZm_jnxNEeK7_aiwPhZIAQ" name="getPlayer">
+      <modelElement href="OOGames.uml#_Ui11mnvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZm_j3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZm_kHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Ui11m3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_kXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZm_knxNEeK7_aiwPhZIAQ" name="updateBest">
+      <modelElement href="OOGames.uml#_Ui11nHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZm_k3xNEeK7_aiwPhZIAQ" label="+"/>
+      <parameters xmi:id="_oZm_lHxNEeK7_aiwPhZIAQ" name="row">
+        <modelElement href="OOGames.uml#_Ui11nXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_lXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oZm_lnxNEeK7_aiwPhZIAQ" name="col">
+        <modelElement href="OOGames.uml#_Ui11nnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_l3xNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oZm_mHxNEeK7_aiwPhZIAQ" name="childVal">
+        <modelElement href="OOGames.uml#_Ui11n3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_mXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oZm_mnxNEeK7_aiwPhZIAQ" name="getDepth">
+      <modelElement href="OOGames.uml#_Ui_mgHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZm_m3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZm_nHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Ui_mgXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_nXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZm_nnxNEeK7_aiwPhZIAQ" name="getMaxDepth">
+      <modelElement href="OOGames.uml#_Ui_mgnvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZm_n3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZm_oHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Ui_mg3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_oXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZm_onxNEeK7_aiwPhZIAQ" name="isNotDone">
+      <modelElement href="OOGames.uml#_Ui_mhHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oZm_o3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZm_pHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_Ui_mhXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_pXxNEeK7_aiwPhZIAQ" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oZm_pnxNEeK7_aiwPhZIAQ" name="ADepthAcc">
+      <modelElement href="OOGames.uml#_UopikHvuEeKz-5PjZFtJ-Q"/>
+      <keywords xmi:id="_oZm_p3xNEeK7_aiwPhZIAQ" keyword="create"/>
+      <visibility xmi:id="_oZm_qHxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oZm_qXxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_UopilnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_qnxNEeK7_aiwPhZIAQ" name="ADepthAcc">
+          <modelElement href="OOGames.uml#_Ui11lHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oZm_q3xNEeK7_aiwPhZIAQ" name="mP">
+        <modelElement href="OOGames.uml#_UopikXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_rHxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oZm_rXxNEeK7_aiwPhZIAQ" name="acc">
+        <modelElement href="OOGames.uml#_UopiknvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_rnxNEeK7_aiwPhZIAQ" name="AAccumulator">
+          <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oZm_r3xNEeK7_aiwPhZIAQ" name="maxD">
+        <modelElement href="OOGames.uml#_Uopik3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oZm_sHxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oaX0enxNEeK7_aiwPhZIAQ" name="MinAcc" generalizations="_oaX0cHxNEeK7_aiwPhZIAQ" subclassedBy="_oaX0cXxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_Up-_WHvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oaX0e3xNEeK7_aiwPhZIAQ" position="-513.0,854.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oaX0fHxNEeK7_aiwPhZIAQ" label="+"/>
+    <operations xmi:id="_oaX0fXxNEeK7_aiwPhZIAQ" comments="_oaX0cnxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oaX0c3xNEeK7_aiwPhZIAQ" name="makeOpposite">
+      <modelElement href="OOGames.uml#_VhMUJHvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oaX0fnxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oaX0f3xNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_VhMUJXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaX0gHxNEeK7_aiwPhZIAQ" name="AAccumulator">
+          <modelElement href="OOGames.uml#_Ui11gHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oaX0gXxNEeK7_aiwPhZIAQ" comments="_oaX0dHxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oaX0dXxNEeK7_aiwPhZIAQ" name="getPlayer">
+      <modelElement href="OOGames.uml#_VhMUJnvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oaX0gnxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oaX0g3xNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_VlgMc3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaX0hHxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_oaX0hXxNEeK7_aiwPhZIAQ" comments="_oaX0dnxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oaX0d3xNEeK7_aiwPhZIAQ" name="MinAcc">
+      <modelElement href="OOGames.uml#_VlgManvuEeKz-5PjZFtJ-Q"/>
+      <keywords xmi:id="_oaX0hnxNEeK7_aiwPhZIAQ" keyword="create"/>
+      <visibility xmi:id="_oaX0h3xNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oaX0iHxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_VlgMbHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaX0iXxNEeK7_aiwPhZIAQ" name="MinAcc">
+          <modelElement href="OOGames.uml#_Up-_WHvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oaX0inxNEeK7_aiwPhZIAQ" name="modelPlayer">
+        <modelElement href="OOGames.uml#_VlgMa3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaX0i3xNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_oaX0jHxNEeK7_aiwPhZIAQ" comments="_oaX0eHxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oaX0eXxNEeK7_aiwPhZIAQ" name="updateBest">
+      <modelElement href="OOGames.uml#_VlgMb3vuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oaX0jXxNEeK7_aiwPhZIAQ" label="+"/>
+      <parameters xmi:id="_oaX0jnxNEeK7_aiwPhZIAQ" name="row">
+        <modelElement href="OOGames.uml#_VlgMcHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaX0j3xNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oaX0kHxNEeK7_aiwPhZIAQ" name="col">
+        <modelElement href="OOGames.uml#_VlgMcXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaX0kXxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oaX0knxNEeK7_aiwPhZIAQ" name="childVal">
+        <modelElement href="OOGames.uml#_VlgMcnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oaX0k3xNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oa8cMHxNEeK7_aiwPhZIAQ" comments="_oa2VnXxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oa2VnnxNEeK7_aiwPhZIAQ" name="RandomValidMove" generalizations="_v19cRHxNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VlzHVnvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oa8cMXxNEeK7_aiwPhZIAQ" position="-319.0,252.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oa8cMnxNEeK7_aiwPhZIAQ" label="+"/>
+    <attributes xmi:id="_oa8cM3xNEeK7_aiwPhZIAQ" defaultValue="new IBoardLambda&lt;List&lt;Point>>() {&#xA;            public boolean apply(int player, IBoardModel host, &#xA;                                 int row, int col, int value, @SuppressWarnings(&quot;unchecked&quot;) List&lt;Point>... lstPoints) {&#xA;                lstPoints[0].add(new Point(col, row));&#xA;                return true;&#xA;            }&#xA;            public void noApply(int player, IBoardModel host, @SuppressWarnings(&quot;unchecked&quot;) List&lt;Point>... nu) {&#xA;                throw new IllegalStateException(&quot;RandomMove2.lambda.noApply() should be unreachable!&quot;);&#xA;            }&#xA;        }" name="lambda">
+      <modelElement href="OOGames.uml#_VnSVInvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_oa8cNHxNEeK7_aiwPhZIAQ" name="Generics">
+        <modelElement href="OOGames.uml#_VnSVI3vuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oa8cNXxNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_VnSVJXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oa8cNnxNEeK7_aiwPhZIAQ" label="-"/>
+      <cardinality xmi:id="_oa8cN3xNEeK7_aiwPhZIAQ" label="1" max="1" min="1"/>
+      <type xmi:id="_oa8cOHxNEeK7_aiwPhZIAQ" name="IBoardLambda">
+        <modelElement href="OOGames.uml#_dE8xwHv0EeKz-5PjZFtJ-Q"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_oa8cOXxNEeK7_aiwPhZIAQ" name="getNextMove">
+      <modelElement href="OOGames.uml#_VlzHWHvuEeKz-5PjZFtJ-Q"/>
+      <stereotypes xmi:id="_oa8cOnxNEeK7_aiwPhZIAQ" name="LegacyStyledElement">
+        <modelElement href="OOGames.uml#_VlzHXHvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <stereotypes xmi:id="_oa8cO3xNEeK7_aiwPhZIAQ" name="Annotations">
+        <modelElement href="OOGames.uml#_VlzHXXvuEeKz-5PjZFtJ-Q"/>
+      </stereotypes>
+      <visibility xmi:id="_oa8cPHxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oa8cPXxNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_VlzHW3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oa8cPnxNEeK7_aiwPhZIAQ" name="Point">
+          <modelElement href="OOGames.uml#_UnKU0HvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oa8cP3xNEeK7_aiwPhZIAQ" name="context">
+        <modelElement href="OOGames.uml#_VlzHWXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oa8cQHxNEeK7_aiwPhZIAQ" name="IModel">
+          <modelElement href="OOGames.uml#_UhDs13vuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oa8cQXxNEeK7_aiwPhZIAQ" name="player">
+        <modelElement href="OOGames.uml#_VlzHWnvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oa8cQnxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_oa2VknxNEeK7_aiwPhZIAQ" comments="_oa2VkHxNEeK7_aiwPhZIAQ" targetConnectionVisual="_oa2VkXxNEeK7_aiwPhZIAQ" name="RandomMoveStrategy" generalizations="_v19cQ3xNEeK7_aiwPhZIAQ">
+    <modelElement href="OOGames.uml#_VlzHUHvuEeKz-5PjZFtJ-Q"/>
+    <visualProperties xmi:id="_oa2Vk3xNEeK7_aiwPhZIAQ" position="-651.0,255.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_oa2VlHxNEeK7_aiwPhZIAQ" label="+"/>
+    <operations xmi:id="_oa2VlXxNEeK7_aiwPhZIAQ" name="getNextMove">
+      <modelElement href="OOGames.uml#_VlzHUnvuEeKz-5PjZFtJ-Q"/>
+      <visibility xmi:id="_oa2VlnxNEeK7_aiwPhZIAQ" label="+"/>
+      <outParameters xmi:id="_oa2Vl3xNEeK7_aiwPhZIAQ">
+        <modelElement href="OOGames.uml#_VlzHVXvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oa2VmHxNEeK7_aiwPhZIAQ" name="Point">
+          <modelElement href="OOGames.uml#_UnKU0HvuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_oa2VmXxNEeK7_aiwPhZIAQ" name="context">
+        <modelElement href="OOGames.uml#_VlzHU3vuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oa2VmnxNEeK7_aiwPhZIAQ" name="IModel">
+          <modelElement href="OOGames.uml#_UhDs13vuEeKz-5PjZFtJ-Q"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_oa2Vm3xNEeK7_aiwPhZIAQ" name="player">
+        <modelElement href="OOGames.uml#_VlzHVHvuEeKz-5PjZFtJ-Q"/>
+        <type xmi:id="_oa2VnHxNEeK7_aiwPhZIAQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

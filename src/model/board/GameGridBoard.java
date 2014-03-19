@@ -107,7 +107,7 @@ public class GameGridBoard extends ABoardModel {
     	int count = 0;
     	for(int i = 0; i < cells.length; i++)
     		for(int j = 0; j < cells[i].length; j++)
-    			if(cells[i][j] == -2 || cells[i][j] == -1)
+    			if(cells[i][j] == 0)
     				count++;
     	if(count == cells[0].length * cells.length - 2)
     		return 1;

@@ -1,18 +1,25 @@
 package model.board;
 
 import java.awt.Point;
+import java.util.ArrayList;
 import java.util.Random;
 
 import model.*;
 
 public class GameGridBoard extends ABoardModel {
 
+	ArrayList<ArrayList<Integer>> player1Scores;
+	ArrayList<ArrayList<Integer>> player2Scores;
+	
+	
     public GameGridBoard(int nRows, int nCols)  {
         super(nRows, nCols);
     }
 
 	synchronized public void reset()  {
 		super.reset();
+		player1Scores = new ArrayList<ArrayList<Integer>>();
+		player2Scores = new ArrayList<ArrayList<Integer>>();
 		Random rand = new Random();
 		for(int i = 0; i < cells.length; i++){
 			for(int j = 0; j < cells[i].length; j++){
@@ -71,7 +78,23 @@ public class GameGridBoard extends ABoardModel {
         				cells[i][j] = 0;
         			}
         	final int old_value = cells[row][col];
+            
+        	ArrayList<Integer> score_pair = new ArrayList<Integer>();
+    		score_pair.add(row);
+    		score_pair.add(col);
+    		score_pair.add(cells[row][col]);
+    		
             cells[row] [col] = playerToValue(player);
+        	
+    		
+    		if (player == 0) {
+        		player1Scores.add(score_pair);
+
+        	} else if(player == 1){
+        		player2Scores.add(score_pair);
+
+        	}
+    		
             //pprint(cells);
             chgState(winCheck(row, col));
             chkMoveVisitor.validMoveCase();
@@ -102,6 +125,20 @@ public class GameGridBoard extends ABoardModel {
     		cells[old_pos[0].x][old_pos[0].y] = old_value_zero[0];
         cells[row][col] = old_value;
 
+   		for (ArrayList<Integer> score : this.player1Scores) {
+   			if (score.get(0) == row && score.get(1) == col) {
+   				this.player1Scores.remove(score);
+   				break;
+   			}
+		}
+		
+		for (ArrayList<Integer> score : this.player2Scores) {
+   			if (score.get(0) == row && score.get(1) == col) {
+   				this.player2Scores.remove(score);
+   				break;
+   			}
+		}
+		
         state = NonTerminalState.Singleton;
     }
 
@@ -119,8 +156,28 @@ public class GameGridBoard extends ABoardModel {
     		for(int j = 0; j < cells[i].length; j++)
     			if(cells[i][j] > 0)
     				count++;
-    	if(count == 0)
-    		return 1;
+    	System.out.println("winCheck: Count "+count);
+    	if(count == 0) {
+    		
+    		int player1TotalScore = 0;
+    		int player2TotalScore = 0;
+    		System.out.println("length 1 scores: " + this.player1Scores.size());
+    		for (ArrayList<Integer> score : this.player1Scores) {
+    			System.out.println("score get 2: " + score.get(2));
+    			player1TotalScore += score.get(2);
+    		}
+    		
+    		for (ArrayList<Integer> score : this.player2Scores) {
+    			player2TotalScore += score.get(2);
+    		}
+    		
+    		System.out.println("winCheck: Count2  " + player1TotalScore + " " + player2TotalScore);
+    		if (player1TotalScore > player2TotalScore)
+    			return -1;
+    		else if (player2TotalScore > player1TotalScore)
+    			return 1;
+ 
+    	}
     	return 0;
     }
 

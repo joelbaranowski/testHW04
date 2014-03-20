@@ -24,7 +24,7 @@ public class BoardFrame<TPlayer> extends JFrame implements IView<TPlayer> {
     private JButton startBtn = new JButton("Start");
     private JLabel jLabel1 = new JLabel("Starting player (X):");
     private JButton[][] btnArray;
-    private String[] symbolStr = {"X", "Y"};
+    private String[] symbolStr = {"1", "2"};
 
     private IModelAdmin<TPlayer> modelAdmin;
     private IViewRequestor requestor;

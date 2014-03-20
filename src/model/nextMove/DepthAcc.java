@@ -1,13 +1,19 @@
 package model.nextMove;
 
+import model.IBoardModel;
+
 
 public class DepthAcc extends ADepthAcc {
-    public DepthAcc(int mP, AAccumulator acc, int maxD){
+	
+	private IBoardModel ibm;
+	
+    public DepthAcc(int mP, AAccumulator acc, int maxD, IBoardModel ibm){
         super(mP, acc, maxD);
+        ibm = ibm;
     }
 
     public AAccumulator makeOpposite() {
-        return new DepthAcc(_modelPlayer, _acc.makeOpposite(), _maxDepth) {
+        return new DepthAcc(_modelPlayer, _acc.makeOpposite(), _maxDepth, ibm) {
             public int getDepth() {
                 return 1 + DepthAcc.this.getDepth();
             }

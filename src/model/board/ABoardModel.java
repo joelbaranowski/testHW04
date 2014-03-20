@@ -77,7 +77,8 @@ public abstract class ABoardModel implements IBoardModel {
 
 
     public abstract IUndoMove makeMove(int r, int c, int plyr,
-                                 ICheckMoveVisitor cm, IBoardStatusVisitor<Void, Void> bs);
+                            
+    		ICheckMoveVisitor cm, IBoardStatusVisitor<Void, Void> bs);
 
     synchronized public void reset() {
         mapAll(0, new IBoardLambda<Void>() {

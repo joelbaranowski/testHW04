@@ -126,6 +126,8 @@ public class GameGridBoard extends ABoardModel {
 
     protected boolean isValidMove(int player, int row, int col){
     	
+    	if(cells[row][col] == 0)
+    		return false;
         if(cells[row][col] != -2 && cells[row][col] != -1)
         	return true;
         return false;

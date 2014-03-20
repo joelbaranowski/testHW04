@@ -75,7 +75,9 @@ public class GameGridBoard extends ABoardModel {
     		score_pair.add(col);
     		score_pair.add(cells[row][col]);
         	
+
     		System.out.println("score pair: " + score_pair.get(2));
+
     		if (player == 0) {
         		player1Scores.add(score_pair);
         		player1prevmove[0] = col;

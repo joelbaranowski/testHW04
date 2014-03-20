@@ -47,13 +47,21 @@ public class GameGridBoard extends ABoardModel {
         }
     }
 
+    public void pprint(int[][] matrix){
+		for (int i = 0; i < matrix.length; i++) {
+		    for (int j = 0; j < matrix[i].length; j++) {
+		        System.out.print(matrix[i][j] + " ");
+		    }
+		    System.out.print("\n");
+		}
+	}
+    
     Point old_pos;
 	int old_value_zero;
 	public synchronized IUndoMove makeMove(final int row, final int col, int player,
                                            ICheckMoveVisitor chkMoveVisitor,
                                            IBoardStatusVisitor<Void, Void> statusVisitor) {
         if (isValidMove(player,row,col)) {
-        	
         	for(int i = 0; i < cells.length; i++)
         		for(int j = 0; j < cells[i].length; j++)
         			if(cells[i][j] == playerToValue(player)){
@@ -63,6 +71,7 @@ public class GameGridBoard extends ABoardModel {
         			}
         	final int old_value = cells[row][col];
             cells[row] [col] = playerToValue(player);
+            //pprint(cells);
             chgState(winCheck(row, col));
             chkMoveVisitor.validMoveCase();
             execute(statusVisitor);

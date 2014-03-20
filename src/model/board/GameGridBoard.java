@@ -67,7 +67,9 @@ public class GameGridBoard extends ABoardModel {
     		score_pair.add(col);
     		score_pair.add(cells[row][col]);
         	
-    		if (player == -1) {
+    		System.out.println("makeMove "+player);
+    		
+    		if (player == 0) {
         		player1Scores.add(score_pair);
         	} else {
         		player2Scores.add(score_pair);

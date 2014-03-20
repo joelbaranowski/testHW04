@@ -16,7 +16,7 @@ public class GameGridBoard extends ABoardModel {
 		Random rand = new Random();
 		for(int i = 0; i < cells.length; i++){
 			for(int j = 0; j < cells[i].length; j++){
-				cells[i][j] = rand.nextInt(10);
+				cells[i][j] = rand.nextInt(10) + 1;
 			}
 		}		
 	}
@@ -56,17 +56,18 @@ public class GameGridBoard extends ABoardModel {
 		}
 	}
     
-    Point old_pos;
-	int old_value_zero;
+    
 	public synchronized IUndoMove makeMove(final int row, final int col, int player,
                                            ICheckMoveVisitor chkMoveVisitor,
                                            IBoardStatusVisitor<Void, Void> statusVisitor) {
+		final Point[] old_pos = new Point[1];
+		final int[] old_value_zero = new int[1];
         if (isValidMove(player,row,col)) {
         	for(int i = 0; i < cells.length; i++)
         		for(int j = 0; j < cells[i].length; j++)
         			if(cells[i][j] == playerToValue(player)){
-        			 	old_pos = new Point(i, j);
-        			 	old_value_zero = cells[i][j];
+        			 	old_pos[0] = new Point(i, j);
+        			 	old_value_zero[0] = cells[i][j];
         				cells[i][j] = 0;
         			}
         	final int old_value = cells[row][col];
@@ -95,10 +96,10 @@ public class GameGridBoard extends ABoardModel {
      * @param col
      * @param undoVisitor The appropriate method of the visitor is called after the undo is performed.
      */
-    private synchronized void undoMove(int row, int col, int old_value, Point old_pos, int old_value_zero, IUndoVisitor undoVisitor)  {
+    private synchronized void undoMove(int row, int col, int old_value, Point[] old_pos, int[] old_value_zero, IUndoVisitor undoVisitor)  {
 
-    	if(old_value_zero == -2 || old_value_zero == -1)
-    		cells[old_pos.x][old_pos.y] = old_value_zero;
+    	if(old_value_zero[0] == -2 || old_value_zero[0] == -1)
+    		cells[old_pos[0].x][old_pos[0].y] = old_value_zero[0];
         cells[row][col] = old_value;
 
         state = NonTerminalState.Singleton;
@@ -124,6 +125,7 @@ public class GameGridBoard extends ABoardModel {
     }
 
     protected boolean isValidMove(int player, int row, int col){
+    	
         if(cells[row][col] != -2 && cells[row][col] != -1)
         	return true;
         return false;

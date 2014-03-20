@@ -86,7 +86,7 @@ public class TurnControl {
     */
     private ANextTurn waitTurn = new ANextTurn(){
         boolean apply() {
-            System.out.println("Waiting....");
+           // System.out.println("Waiting....");
             try  {
                 Thread.sleep(500);
             }

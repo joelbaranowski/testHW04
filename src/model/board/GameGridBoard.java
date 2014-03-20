@@ -126,23 +126,26 @@ public class GameGridBoard extends ABoardModel {
 
     protected boolean isValidMove(int player, int row, int col){
     	
-    	int r = 0;
-    	int c = 0;
-    	
+    	int r = -1;
+    	int c = -1;
+    	System.out.println("player: " + player + " | player2value: " + playerToValue(player));
     	for(int i = 0; i < cells.length; i++)
     		for(int j = 0; j < cells[i].length; j++){
     			if(cells[i][j] == playerToValue(player)){
+    				System.out.println("cell ij: " + cells[i][j]);
     				r = i;
     				c = j;
     			}
     		}
+    	System.out.println("row, col:" + row + ", " + col + "| r, c: " + r + "," + c);
     	
-    	
+    	if(r == -1 || c == -1 && (cells[row][col] != -2 && cells[row][col] != -1))
+    		return true;
     	
     	if(Math.abs(row - r) > 1 || Math.abs(col - c) > 1)
     		return false;
-        if(cells[row][col] != -2 && cells[row][col] != -1)
-        	return true;
-        return false;
+    	else
+    		return true;
+    	   
     }
 }

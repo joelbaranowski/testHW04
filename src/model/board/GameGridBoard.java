@@ -139,13 +139,16 @@ public class GameGridBoard extends ABoardModel {
     		}
     	System.out.println("row, col:" + row + ", " + col + "| r, c: " + r + "," + c);
     	
-    	if(r == -1 || c == -1 && (cells[row][col] != -2 && cells[row][col] != -1))
-    		return true;
-    	
-    	if(Math.abs(row - r) > 1 || Math.abs(col - c) > 1)
+    	if(cells[row][col] == 0)
     		return false;
-    	else
-    		return true;
+    	
+    	if(cells[row][col] == -2 || cells[row][col] == -1)
+    		return false;
+    	
+    	if((r != -1 && c != -1) && (Math.abs(row - r) > 1 || Math.abs(col - c) > 1))
+    		return false;
+    	
+    	return true;
     	   
     }
 }

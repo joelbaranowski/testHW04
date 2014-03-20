@@ -303,4 +303,10 @@ public class OthelloBoard extends ABoardModel {
 		else if (totals[1] > totals[0]) return 1;
 		return 0;
 	}
+
+	@Override
+	public void displayScores() {
+		// TODO Auto-generated method stub
+		
+	}
 }

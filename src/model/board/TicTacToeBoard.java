@@ -143,4 +143,10 @@ public class TicTacToeBoard extends ABoardModel {
     protected boolean isValidMove(int player, int row, int col){
         return EMPTY == cells[row][col];
     }
+
+	@Override
+	public void displayScores() {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -65,20 +65,24 @@ public final class GameModel implements IModel {
 			boardModel.makeMove(row, col, player,
 					new ICheckMoveVisitor() {
 				public void invalidMoveCase() {
+					System.out.println("invalid");
 					rejectCommand.execute();
 				}
 				public void validMoveCase() {
+					System.out.println("cehck");
 					boardModel.redrawAll(iCommand);
 				}
 			},
 			new IBoardStatusVisitor<Void, Void>() {
 				public Void player0WonCase(IBoardModel host, Void... nu) {
 					turnControl.setHalt();
+					host.displayScores();
 					viewAdmin.win(0);
 					return null;
 				}
 				public Void player1WonCase(IBoardModel host, Void... nu) {
 					turnControl.setHalt();
+					host.displayScores();
 					viewAdmin.win(1);
 					return null;
 				}

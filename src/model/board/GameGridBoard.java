@@ -120,10 +120,12 @@ public class GameGridBoard extends ABoardModel {
      * @param undoVisitor The appropriate method of the visitor is called after the undo is performed.
      */
     private synchronized void undoMove(int row, int col, int old_value, Point[] old_pos, int[] old_value_zero, IUndoVisitor undoVisitor)  {
-
+    	
     	if(old_value_zero[0] == -2 || old_value_zero[0] == -1)
     		cells[old_pos[0].x][old_pos[0].y] = old_value_zero[0];
-        cells[row][col] = old_value;
+        
+    	
+    	cells[row][col] = old_value;
 
    		for (ArrayList<Integer> score : this.player1Scores) {
    			if (score.get(0) == row && score.get(1) == col) {
@@ -156,14 +158,14 @@ public class GameGridBoard extends ABoardModel {
     		for(int j = 0; j < cells[i].length; j++)
     			if(cells[i][j] > 0)
     				count++;
-    	System.out.println("winCheck: Count "+count);
+    	//System.out.println("winCheck: Count "+count);
     	if(count == 0) {
     		
     		int player1TotalScore = 0;
     		int player2TotalScore = 0;
-    		System.out.println("length 1 scores: " + this.player1Scores.size());
+    		//System.out.println("length 1 scores: " + this.player1Scores.size());
     		for (ArrayList<Integer> score : this.player1Scores) {
-    			System.out.println("score get 2: " + score.get(2));
+    			//System.out.println("score get 2: " + score.get(2));
     			player1TotalScore += score.get(2);
     		}
     		
@@ -171,7 +173,7 @@ public class GameGridBoard extends ABoardModel {
     			player2TotalScore += score.get(2);
     		}
     		
-    		System.out.println("winCheck: Count2  " + player1TotalScore + " " + player2TotalScore);
+    		//System.out.println("winCheck: Count2  " + player1TotalScore + " " + player2TotalScore);
     		if (player1TotalScore > player2TotalScore)
     			return -1;
     		else if (player2TotalScore > player1TotalScore)
@@ -185,27 +187,40 @@ public class GameGridBoard extends ABoardModel {
     	
     	int r = -1;
     	int c = -1;
-    	System.out.println("player: " + player + " | player2value: " + playerToValue(player));
+    	//System.out.println("player: " + player + " | player2value: " + playerToValue(player));
     	for(int i = 0; i < cells.length; i++)
     		for(int j = 0; j < cells[i].length; j++){
     			if(cells[i][j] == playerToValue(player)){
-    				System.out.println("cell ij: " + cells[i][j]);
+    				//System.out.println("cell ij: " + cells[i][j]);
     				r = i;
     				c = j;
     			}
     		}
-    	System.out.println("row, col:" + row + ", " + col + "| r, c: " + r + "," + c);
     	
-    	if(cells[row][col] == 0)
-    		return false;
+//System.out.println("row, col:" + row + ", " + col + "| r, c: " + r + "," + c);
     	
     	if(cells[row][col] == -2 || cells[row][col] == -1)
-    		return false;
-    	
-    	if((r != -1 && c != -1) && (Math.abs(row - r) > 1 || Math.abs(col - c) > 1))
     		return false;
     	
     	return true;
     	   
     }
+
+	@Override
+	public void displayScores() {
+		int player1TotalScore = 0;
+		int player2TotalScore = 0;
+		//System.out.println("length 1 scores: " + this.player1Scores.size());
+		for (ArrayList<Integer> score : this.player1Scores) {
+			//System.out.println("score get 2: " + score.get(2));
+			player1TotalScore += score.get(2);
+		}
+		
+		for (ArrayList<Integer> score : this.player2Scores) {
+			player2TotalScore += score.get(2);
+		}
+		
+		System.out.println("winCheck: Count2  " + player1TotalScore + " " + player2TotalScore);
+		
+	}
 }

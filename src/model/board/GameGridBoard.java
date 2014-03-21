@@ -183,6 +183,58 @@ public class GameGridBoard extends ABoardModel {
     	return 0;
     }
 
+    public boolean bad(int num){
+    	if(num == -2 || num == -1 || num == 0)
+    		return true;
+    	return false;
+    }
+    
+    public boolean checkIfStuck(int r, int c){
+    	if(r == 0 && c == 0){
+    		if(bad(cells[r+1][c]) && bad(cells[r][c+1]))
+    			return true;
+    	}
+    	if(r == cells.length - 1 && c == 0){
+    		if(bad(cells[r-1][c]) &&  bad(cells[r][c+1]))
+    			return true;
+    	}
+    	if(r == 0 && c == cells[r].length - 1){
+    		if(bad(cells[r][c-1]) && bad(cells[r+1][c]))
+    			return true;
+    	}
+    	if(r == cells.length - 1 && c == cells[r].length - 1){
+    		if(bad(cells[r][c-1]) && bad(cells[r-1][c]))
+    			return true;
+    	}
+    	
+    	if(r > 0 && r < cells.length - 1 && c == 0){
+    		if(bad(cells[r-1][c]) && bad(cells[r+1][c]) && bad(cells[r][c+1]))
+    			return true;
+    	}
+    	
+    	if(r > 0 && r < cells.length - 1 && c == cells[r].length - 1){
+    		if(bad(cells[r-1][c]) && bad(cells[r+1][c]) && bad(cells[r][c-1]))
+    			return true;
+    	}
+    	
+    	if(r == 0 && c > 0 && c < cells[r].length - 1){
+    		if(bad(cells[r][c-1]) && bad(cells[r][c+1]) && bad(cells[r+1][c])){
+    			return true;
+    		}
+    	}
+    	
+    	if(r == cells.length - 1 && c > 0 && c < cells[r].length - 1){
+    		if(bad(cells[r][c-1]) && bad(cells[r][c+1]) && bad(cells[r-1][c]))
+    			return true;
+    	}
+    	
+    	if(r > 0 && r < cells.length - 1 && c > 0 && c < cells[r].length - 1){
+    		if(bad(cells[r-1][c]) && bad(cells[r+1][c]) && bad(cells[r][c-1]) && bad(cells[r][c+1]))
+    			return true;
+    	}
+    	return false;
+    }
+    
     protected boolean isValidMove(int player, int row, int col){
     	
     	int r = -1;
@@ -197,10 +249,15 @@ public class GameGridBoard extends ABoardModel {
     			}
     		}
     	
-//System.out.println("row, col:" + row + ", " + col + "| r, c: " + r + "," + c);
-    	
-    	if(cells[row][col] == -2 || cells[row][col] == -1)
+    	if(cells[row][col] == -2 || cells[row][col] == -1 || cells[row][col] == 0)
     		return false;
+    	
+    	if((r > -1 && c > -1) && checkIfStuck(r, c))
+    		return true;
+    	
+    	
+    	if((r > -1 || c > -1) && (Math.abs(row - r) > 1 || Math.abs(col - c) > 1 || (Math.abs(row - r) == 1 && Math.abs(col - c) == 1)))
+    			return false;
     	
     	return true;
     	   
